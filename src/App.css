@@ -19,7 +19,8 @@ body {
   background: rgba(0, 0, 0, 0.60);
   margin-top: -240px;
   position: relative;
-  z-index: 1
+  z-index: 1;
+  padding-top: 20px;
 }
 
 .button-container {
@@ -57,22 +58,36 @@ button {
   margin: 0 15px;
 }
 
+/* button:hover {
+  background-color: #1E1E1E;
+  color: #FFF;
+} */
+
+
+
 /* About Me */
 
 .main-bkg {
   height: 100vh;
   background: linear-gradient(247deg, #D9D9D9 0%, #D1CECE 29.05%, #4D4C4C 62.41%, #1E1E1E 85.63%);
-  display: grid;
+  display: flex;
   width: 100vw;
+  position: relative;
 }
 
 .about-me-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: grid;
   width: 80%;
-  place-self: center;
   grid-template-areas:
     "about-me . "
-    "profile-pic p";
+    "profile-pic p"
+    ". resume-btn";
+  gap: 20px;
+  align-items: center;
 }
 
 .about-me-title {
@@ -91,10 +106,24 @@ button {
   height: 400px;
   flex-shrink: 0;
   grid-area: profile-pic;
+
 }
 
 .about-me-text {
   grid-area: p;
   font-size: 20px;
-  margin-left: 50px;
+  margin-left: 30px;
+}
+
+.resume-button {
+  grid-area: resume-btn;
+}
+
+
+/* Project Section */
+
+.projects-section {
+  display: grid;
+  place-self: center;
+
 }
