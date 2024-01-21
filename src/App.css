@@ -66,23 +66,35 @@ button {
   width: 100vw;
 }
 
-.main-container {
+.about-me-container {
+  display: grid;
   width: 80%;
-  
+  place-self: center;
+  grid-template-areas:
+    "about-me . "
+    "profile-pic p";
 }
 
-.about-me {
+.about-me-title {
   width: 379px;
   color: #FFF;
   font-size: 50px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin: 150px 100px 50px ;
+  grid-area: about-me;
 }
 
-.profile.pic {
+.about-me-image {
   display: inline;
-  margin: 0 auto;
+  width: 400px;
+  height: 400px;
   flex-shrink: 0;
+  grid-area: profile-pic;
+}
+
+.about-me-text {
+  grid-area: p;
+  font-size: 20px;
+  margin-left: 50px;
 }
