@@ -45,10 +45,10 @@ function App() {
 						<button className="resume-button">Resume</button>
 					</div>
 				</main>
-				{/* <section className="projects-section">
+				<section className="projects-section">
 					<h1>Projects</h1>
 
-				</section> */}
+				</section>
 			</div>
 		</div>
 	)

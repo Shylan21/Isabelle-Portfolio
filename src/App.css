@@ -1,5 +1,5 @@
 body {
-  font-family: prompt;
+  font-family: Prompt;
   min-width: 500px;
 }
 
@@ -28,7 +28,8 @@ body {
   justify-content: center;
 }
 
-h1 {
+h1,
+h2 {
   color: #FFFF;
   text-align: center;
   font-size: 30px;
@@ -38,24 +39,25 @@ h1 {
 }
 
 h2 {
-  color: #FFFF;
-  text-align: center;
   font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
 }
 
 button {
   width: 158px;
   height: 42px;
-  color: #FFFF;
   background: linear-gradient(180deg, rgba(186, 186, 186, 0.386) 0%, #330045 100%);
   border-width: 1px;
   border-color: #330045;
   border-style: solid;
   border-radius: 10px;
   margin: 0 15px;
+
+  color: #FFFF;
+  text-align: center;
+  font-family: Prompt;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
 }
 
 /* button:hover {
@@ -111,7 +113,13 @@ button {
 
 .about-me-text {
   grid-area: p;
+  color: #000;
+  text-align: justify;
+  font-family: Prompt;
   font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
   margin-left: 30px;
 }
 
