@@ -1,5 +1,7 @@
 import background from './pictures/picture.jpeg'
 import profilePic from './pictures/foto.png'
+import uomoshopfront from './proj-img/UomoShopFront.jpeg'
+import movietracker from './proj-img/MovieTracker.jpeg'
 import './App.css'
 
 function App() {
@@ -47,7 +49,18 @@ function App() {
 				</main>
 				<section className="projects-section">
 					<h1 className="project-title">Projects</h1>
-					
+					<div className="projects-pics">
+						<img
+							className="uomo-shopfront"
+							style={{ backgroundImage: `url(${uomoshopfront})` }}
+							alt=""
+						/>
+						<img
+							className="movietracker"
+							style={{ backgroundImage: `url(${movietracker})` }}
+							alt=""
+						/>
+					</div>
 				</section>
 			</div>
 		</div>
