@@ -260,13 +260,14 @@ button {
 
 .bkg-skill-section {
   width: 1164px;
-  height: 309px;
+  height: 345px;
 
   background: rgba(255, 255, 255, 0.35);
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   align-items: center;
-  justify-items: center;
+  justify-content: center;
 }
 
 .skills-section {
