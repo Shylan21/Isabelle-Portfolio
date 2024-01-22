@@ -218,10 +218,10 @@ button {
 
 .certificates-section {
   display: flex;
-  
+
   flex-direction: row;
   align-items: center;
-justify-content: center;
+  justify-content: center;
   margin: 30px;
 }
 
@@ -255,3 +255,39 @@ justify-content: center;
   width: 280px;
   height: 390px
 }
+
+/* Skills Section */
+
+.bkg-section {
+  width: 1164px;
+  height: 309px;
+
+  background: rgba(255, 255, 255, 0.35);
+}
+
+.skills-section {
+  display: flex;
+
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+}
+
+.skills-title {
+  color: #FFF;
+  text-align: center;
+  font-family: Prompt;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* .html {
+  width: 113px;
+  height: 28px;
+
+  fill: #000
+} */

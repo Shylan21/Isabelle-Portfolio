@@ -13,7 +13,8 @@ import pokemoncards from './proj-img/PokemonCards.jpeg'
 import shecodeintro from './certificates/SheCodesBasicCertificate.png'
 import shecodeplus from './certificates/SheCodesPlusCertificate.png'
 import boolean from './certificates/BooleanCertificate.png'
-
+// ---------------
+import html from './SVG skills/HTML.png'
 import './App.css'
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
 					<div className="button-container">
 						<button>About Me</button>
 						<button>Projects</button>
+						<button>Certificates</button>
 						<button>Skills</button>
 						<button>Contacts</button>
 					</div>
@@ -114,7 +116,7 @@ function App() {
 						/>
 					</div>
 				</section>
-					<h1 className="certificates-title">Certificates</h1>
+				<h1 className="certificates-title">Certificates</h1>
 				<section className="certificates-section">
 					<img
 						className="shecodeintro"
@@ -131,6 +133,16 @@ function App() {
 						style={{ backgroundImage: `url(${boolean})` }}
 						alt=""
 					/>
+				</section>
+				<section className="skills-section">
+					<h1 className="skills-title">Skills</h1>
+					<div className="bkg-section">
+						{/* <img
+							className="html"
+							style={{ backgroundImage: `url(${html})` }}
+							alt=""
+						/> */}
+					</div>
 				</section>
 			</div>
 		</div>
