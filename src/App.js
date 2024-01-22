@@ -13,8 +13,30 @@ import pokemoncards from './proj-img/PokemonCards.jpeg'
 import shecodeintro from './certificates/SheCodesBasicCertificate.png'
 import shecodeplus from './certificates/SheCodesPlusCertificate.png'
 import boolean from './certificates/BooleanCertificate.png'
-// ---------------
-import html from './SVG skills/HTML.png'
+// ----------------------------------------------------
+import html from './SvgSkills/HTML.png'
+import css from './SvgSkills/CSS.png'
+import js from './SvgSkills/JS.png'
+import react from './SvgSkills/React.png'
+import node from './SvgSkills/Node.js.png'
+import sql from './SvgSkills/PostgreSQL.png'
+import express from './SvgSkills/Express.png'
+import tdd from './SvgSkills/TDD.png'
+import oop from './SvgSkills/OOP.png'
+import agile from './SvgSkills/Agile.png'
+import bootstrap from './SvgSkills/Bootstrap.png'
+import netlify from './SvgSkills/Netlify.png'
+import vsc from './SvgSkills/VSCode.png'
+import cdsndbx from './SvgSkills/CodeSandbox.png'
+import insomnia from './SvgSkills/Insomnia.png'
+import github from './SvgSkills/GitHub.png'
+import notion from './SvgSkills/Notion.png'
+import tlbplus from './SvgSkills/TablePlus.png'
+import git from './SvgSkills/Git.png'
+import codepen from './SvgSkills/CodePen.png'
+import invision from './SvgSkills/InVision.png'
+import figma from './SvgSkills/Figma.png'
+// -----------------------------------------------------
 import './App.css'
 
 function App() {
@@ -136,12 +158,117 @@ function App() {
 				</section>
 				<section className="skills-section">
 					<h1 className="skills-title">Skills</h1>
-					<div className="bkg-section">
-						{/* <img
+					<div className="bkg-skill-section">
+						<img
 							className="html"
 							style={{ backgroundImage: `url(${html})` }}
 							alt=""
-						/> */}
+						/>
+						<img
+							className="css"
+							style={{ backgroundImage: `url(${css})` }}
+							alt=""
+						/>
+						<img
+							className="js"
+							style={{ backgroundImage: `url(${js})` }}
+							alt=""
+						/>
+						<img
+							className="react"
+							style={{ backgroundImage: `url(${react})` }}
+							alt=""
+						/>
+						<img
+							className="node"
+							style={{ backgroundImage: `url(${node})` }}
+							alt=""
+						/>
+						<img
+							className="sql"
+							style={{ backgroundImage: `url(${sql})` }}
+							alt=""
+						/>
+						<img
+							className="express"
+							style={{ backgroundImage: `url(${express})` }}
+							alt=""
+						/>
+						<img
+							className="tdd"
+							style={{ backgroundImage: `url(${tdd})` }}
+							alt=""
+						/>
+						<img
+							className="oop"
+							style={{ backgroundImage: `url(${oop})` }}
+							alt=""
+						/>
+						<img
+							className="agile"
+							style={{ backgroundImage: `url(${agile})` }}
+							alt=""
+						/>
+						<img
+							className="bootstrap"
+							style={{ backgroundImage: `url(${bootstrap})` }}
+							alt=""
+						/>
+						<img
+							className="netlify"
+							style={{ backgroundImage: `url(${netlify})` }}
+							alt=""
+						/>
+						<img
+							className="vsc"
+							style={{ backgroundImage: `url(${vsc})` }}
+							alt=""
+						/>
+						<img
+							className="cdsndbx"
+							style={{ backgroundImage: `url(${cdsndbx})` }}
+							alt=""
+						/>
+						<img
+							className="insomnia"
+							style={{ backgroundImage: `url(${insomnia})` }}
+							alt=""
+						/>
+						<img
+							className="github"
+							style={{ backgroundImage: `url(${github})` }}
+							alt=""
+						/>
+						<img
+							className="notion"
+							style={{ backgroundImage: `url(${notion})` }}
+							alt=""
+						/>
+						<img
+							className="tblplus"
+							style={{ backgroundImage: `url(${tlbplus})` }}
+							alt=""
+						/>
+						<img
+							className="git"
+							style={{ backgroundImage: `url(${git})` }}
+							alt=""
+						/>
+						<img
+							className="codepen"
+							style={{ backgroundImage: `url(${codepen})` }}
+							alt=""
+						/>
+						<img
+							className="invision"
+							style={{ backgroundImage: `url(${invision})` }}
+							alt=""
+						/>
+						<img
+							className="figma"
+							style={{ backgroundImage: `url(${figma})` }}
+							alt=""
+						/>
 					</div>
 				</section>
 			</div>
