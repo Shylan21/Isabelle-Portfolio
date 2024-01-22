@@ -2,6 +2,18 @@ import background from './pictures/picture.jpeg'
 import profilePic from './pictures/foto.png'
 import uomoshopfront from './proj-img/UomoShopFront.jpeg'
 import movietracker from './proj-img/MovieTracker.jpeg'
+import wolframe from './proj-img/Wolframe.jpeg'
+import spotify from './proj-img/Spotify.jpeg'
+import streamlabs from './proj-img/Streamlabs.jpeg'
+import weather from './proj-img/WeatherApp.jpeg'
+import greengrocers from './proj-img/Greengrocers.jpeg'
+import brewery from './proj-img/Brewery.jpeg'
+import calculator from './proj-img/Calculator.jpeg'
+import pokemoncards from './proj-img/PokemonCards.jpeg'
+import shecodeintro from './certificates/SheCodesBasicCertificate.png'
+import shecodeplus from './certificates/SheCodesPlusCertificate.png'
+import boolean from './certificates/BooleanCertificate.png'
+
 import './App.css'
 
 function App() {
@@ -60,7 +72,65 @@ function App() {
 							style={{ backgroundImage: `url(${movietracker})` }}
 							alt=""
 						/>
+						<img
+							className="wolframe"
+							style={{ backgroundImage: `url(${wolframe})` }}
+							alt=""
+						/>
+						<img
+							className="spotify"
+							style={{ backgroundImage: `url(${spotify})` }}
+							alt=""
+						/>
+						<img
+							className="greengrocers"
+							style={{ backgroundImage: `url(${greengrocers})` }}
+							alt=""
+						/>
+						<img
+							className="weather"
+							style={{ backgroundImage: `url(${weather})` }}
+							alt=""
+						/>
+						<img
+							className="pokemoncards"
+							style={{ backgroundImage: `url(${pokemoncards})` }}
+							alt=""
+						/>
+						<img
+							className="streamlabs"
+							style={{ backgroundImage: `url(${streamlabs})` }}
+							alt=""
+						/>
+						<img
+							className="brewery"
+							style={{ backgroundImage: `url(${brewery})` }}
+							alt=""
+						/>
+						<img
+							className="calculator"
+							style={{ backgroundImage: `url(${calculator})` }}
+							alt=""
+						/>
 					</div>
+				</section>
+					<h1 className="certificates-title">Certificates</h1>
+				<section className="certificates-section">
+					<img
+						className="shecodeintro"
+						style={{ backgroundImage: `url(${shecodeintro})` }}
+						alt=""
+					/>
+					<img
+						className="shecodeplus"
+						style={{ backgroundImage: `url(${shecodeplus})` }}
+						alt=""
+					/>
+					<img
+						className="boolean"
+						style={{ backgroundImage: `url(${boolean})` }}
+						alt=""
+					/>
 				</section>
 			</div>
 		</div>

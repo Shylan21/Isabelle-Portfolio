@@ -121,7 +121,7 @@ button {
   text-align: justify;
 
   font-family: Prompt;
-  font-size: 20px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -158,15 +158,100 @@ button {
   line-height: normal;
 }
 
+.uomo-shopfront,
+.movietracker,
+.wolframe,
+.spotify,
+.streamlabs,
+.weather,
+.greengrocers,
+.brewery,
+.calculator,
+.pokemoncards {
+  background: lightgray 50% / cover no-repeat;
+  margin: 25px;
+}
+
 .uomo-shopfront {
   width: 420px;
   height: 210px;
-  margin: 30px;
-  background: lightgray 50% / cover no-repeat;
 }
+
+.greengrocers {
+  height: 280px;
+  width: 186px;
+}
+
 .movietracker {
   width: 420px;
-    height: 210px;
-    margin: 30px;
-    background: lightgray 50% / cover no-repeat;
+  height: 210px;
+}
+
+.wolframe,
+.weather,
+.brewery {
+  width: 300px;
+  height: 210px;
+}
+
+.spotify {
+  width: 420px;
+  height: 210px;
+}
+
+.streamlabs {
+  width: 420px;
+  height: 210px;
+}
+
+.calculator {
+  width: 600px;
+  height: 210px;
+}
+
+.pokemoncards {
+  height: 300px;
+  width: 240px;
+}
+
+/* Certificates Section */
+
+.certificates-section {
+  display: flex;
+  
+  flex-direction: row;
+  align-items: center;
+ 
+  margin: 30px;
+}
+
+.certificates-title {
+  color: #FFF;
+  text-align: center;
+  font-family: Prompt;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.shecodeintro,
+.shecodeplus {
+  width: 400px;
+  height: 280px;
+
+  background: lightgray 50% / cover no-repeat;
+  margin: 35px;
+
+}
+
+.boolean {
+  background-repeat: no-repeat;
+  background-position: center;
+
+  background-size: 280px;
+  margin: 35px;
+
+  width: 280px;
+  height: 390px
 }
