@@ -66,39 +66,41 @@ button {
 } */
 
 
-
 /* About Me */
 
 .main-bkg {
-  height: 100vh;
+  height: 100%;
+  width: 100%;
   background: linear-gradient(247deg, #D9D9D9 0%, #D1CECE 29.05%, #4D4C4C 62.41%, #1E1E1E 85.63%);
-  display: flex;
-  width: 100vw;
+
   position: relative;
+
+  display: grid;
+
 }
 
 .about-me-container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   display: grid;
+
   width: 80%;
   grid-template-areas:
     "about-me . "
     "profile-pic p"
     ". resume-btn";
   gap: 20px;
-  align-items: center;
+
+  margin: 80px auto; /* Keeps the div centered */
 }
 
 .about-me-title {
-  width: 379px;
   color: #FFF;
   font-size: 50px;
+  margin: 50px 20px 20px;
+
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+
   grid-area: about-me;
 }
 
@@ -108,30 +110,44 @@ button {
   height: 400px;
   flex-shrink: 0;
   grid-area: profile-pic;
-
+  margin: 20px
 }
 
 .about-me-text {
   grid-area: p;
+
   color: #000;
   text-align: justify;
+
   font-family: Prompt;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-left: 30px;
+
+  margin: auto;
+  width: 90%;
+  padding: 10px;
+
 }
 
 .resume-button {
   grid-area: resume-btn;
+  margin: 10px;
 }
 
 
 /* Project Section */
 
 .projects-section {
-  display: grid;
-  place-self: center;
 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+
+}
+
+.project-title {
+  color: red;
 }

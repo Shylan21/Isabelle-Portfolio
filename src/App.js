@@ -46,8 +46,8 @@ function App() {
 					</div>
 				</main>
 				<section className="projects-section">
-					<h1>Projects</h1>
-
+					<h1 className="project-title">Projects</h1>
+					
 				</section>
 			</div>
 		</div>
