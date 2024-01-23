@@ -42,6 +42,7 @@ import './App.css'
 function App() {
 	return (
 		<div className="App">
+			{/* HEADER */}
 			<header>
 				<img
 					className="bkg-img"
@@ -63,6 +64,7 @@ function App() {
 				</div>
 			</header>
 			<div className="main-bkg">
+				{/* ABOUT ME */}
 				<main>
 					<div className="about-me-container">
 						<h1 className="about-me-title"> A Bit About Me</h1>
@@ -83,6 +85,7 @@ function App() {
 						<button className="resume-button">Resume</button>
 					</div>
 				</main>
+				{/* PROJECTS */}
 				<section className="projects-section">
 					<h1 className="project-title">Projects</h1>
 					<div className="projects-pics">
@@ -138,24 +141,28 @@ function App() {
 						/>
 					</div>
 				</section>
-				<h1 className="certificates-title">Certificates</h1>
+				{/* CERTIFICATES */}
 				<section className="certificates-section">
-					<img
-						className="shecodeintro"
-						style={{ backgroundImage: `url(${shecodeintro})` }}
-						alt=""
-					/>
-					<img
-						className="shecodeplus"
-						style={{ backgroundImage: `url(${shecodeplus})` }}
-						alt=""
-					/>
-					<img
-						className="boolean"
-						style={{ backgroundImage: `url(${boolean})` }}
-						alt=""
-					/>
+					<h1 className="certificates-title">Certificates</h1>
+					<div className="certificates">
+						<img
+							className="shecodeintro"
+							style={{ backgroundImage: `url(${shecodeintro})` }}
+							alt=""
+						/>
+						<img
+							className="shecodeplus"
+							style={{ backgroundImage: `url(${shecodeplus})` }}
+							alt=""
+						/>
+						<img
+							className="boolean"
+							style={{ backgroundImage: `url(${boolean})` }}
+							alt=""
+						/>
+					</div>
 				</section>
+				{/* SKILLS */}
 				<section className="skills-section">
 					<h1 className="skills-title">Skills</h1>
 					<div className="bkg-skill-section">
@@ -164,6 +171,7 @@ function App() {
 							style={{ backgroundImage: `url(${html})` }}
 							alt=""
 						/>
+						{/* <p>HTML</p> */}
 						<img
 							className="css"
 							style={{ backgroundImage: `url(${css})` }}
@@ -271,23 +279,7 @@ function App() {
 						/>
 					</div>
 				</section>
-				{/* <footer className="footer">
-					<div className="bgk-footer">
-						<div className="number">
-							<h4>Call</h4>
-							<p>My number</p>
-						</div>
-						<div className="email">
-							<h4>Email</h4>
-							<p>My email</p>
-						</div>
-						<div className="links">
-							<h4>My Links</h4>
-							<h5>Github:</h5>
-							<h5>LinkedIn:</h5>
-						</div>
-					</div>
-				</footer> */}
+				{/* FOOTER */}
 				<footer className="footer">
 					<div className="bgk-footer">
 						<div className="number">

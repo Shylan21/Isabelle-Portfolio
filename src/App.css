@@ -217,10 +217,14 @@ button {
 }
 
 /* Certificates Section */
-
 .certificates-section {
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
 
+.certificates {
+  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -264,7 +268,16 @@ button {
 
   flex-direction: column;
   flex-wrap: wrap;
+}
 
+.skills-title {
+  color: #FFF;
+  text-align: center;
+  font-family: Prompt;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .bkg-skill-section {
@@ -277,18 +290,10 @@ button {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  gap: 30px;
 }
 
 
-.skills-title {
-  color: #FFF;
-  text-align: center;
-  font-family: Prompt;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
 
 .html,
 .css,
@@ -312,12 +317,9 @@ button {
 .codepen,
 .invision,
 .figma {
-
-  margin: 20px;
+  margin: 0 20px;
   background-repeat: no-repeat;
   background-position: center;
-
-
 }
 
 .html {
@@ -336,13 +338,13 @@ button {
 }
 
 .react {
-  width: 63px;
-  height: 57px;
+  width: 66px;
+  height: 60px;
 }
 
 .node {
   width: 52px;
-  height: 57px;
+  height: 60px;
 }
 
 .sql {
@@ -351,8 +353,8 @@ button {
 }
 
 .express {
-  width: 60px;
-  height: 60px;
+  width: 65px;
+  height: 65px;
 }
 
 .tdd {
@@ -373,17 +375,17 @@ button {
 
 .bootstrap {
   width: 70px;
-  height: 55px;
+  height: 60px;
 }
 
 .netlify {
   width: 60px;
-  height: 57px;
+  height: 62px;
 }
 
 .vsc {
-  width: 60px;
-  height: 61px;
+  width: 63px;
+  height: 65px;
 }
 
 .cdsndbx {
@@ -392,13 +394,13 @@ button {
 }
 
 .insomnia {
-  width: 63px;
-  height: 65px;
+  width: 66px;
+  height: 68px;
 }
 
 .github {
-  width: 65px;
-  height: 64px;
+  width: 70px;
+  height: 68px;
 }
 
 .notion {
@@ -413,12 +415,12 @@ button {
 
 .git {
   width: 70px;
-  height: 65px;
+  height: 70px;
 }
 
 .codepen {
   width: 60px;
-  height: 60px;
+  height: 65px;
 }
 
 .invision {
@@ -428,7 +430,7 @@ button {
 
 .figma {
   width: 40px;
-  height: 51px;
+  height: 55px;
 }
 
 /* Footer Section */
