@@ -271,6 +271,54 @@ function App() {
 						/>
 					</div>
 				</section>
+				{/* <footer className="footer">
+					<div className="bgk-footer">
+						<div className="number">
+							<h4>Call</h4>
+							<p>My number</p>
+						</div>
+						<div className="email">
+							<h4>Email</h4>
+							<p>My email</p>
+						</div>
+						<div className="links">
+							<h4>My Links</h4>
+							<h5>Github:</h5>
+							<h5>LinkedIn:</h5>
+						</div>
+					</div>
+				</footer> */}
+				<footer className="footer">
+					<div className="bgk-footer">
+						<div className="number">
+							<div className="footer-row">
+								<h4>Call</h4>
+								<p>---------</p>
+							</div>
+						</div>
+						<div className="email">
+							<div className="footer-row">
+								<h4>Email</h4>
+								<p>-----------</p>
+							</div>
+						</div>
+						<div className="links">
+							<div className="footer-row">
+								<h4>My Links</h4>
+								<h5>
+									Github:
+									<br />
+									https://github.com/Shylan21
+								</h5>
+								<h5>
+									LinkedIn:
+									<br />
+									https://www.linkedin.com/in/isabelle-tartarelli/
+								</h5>
+							</div>
+						</div>
+					</div>
+				</footer>
 			</div>
 		</div>
 	)

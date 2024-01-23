@@ -1,11 +1,12 @@
-body {
+* {
   font-family: Prompt;
-  min-width: 500px;
+
 }
 
 /* Nav Bar */
 
 .bkg-img {
+  /* Header picture */
   width: 100%;
   height: 454px;
   background: lightgray 50% / cover no-repeat;
@@ -13,6 +14,7 @@ body {
 }
 
 .bkg-shadow {
+  /* Header darker section */
   width: 100%;
   height: 213px;
   flex-shrink: 0;
@@ -257,9 +259,16 @@ button {
 }
 
 /* Skills Section */
+.skills-section {
+  display: flex;
+
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
 
 .bkg-skill-section {
-  width: 1164px;
+  width: 100%;
   height: 345px;
 
   background: rgba(255, 255, 255, 0.35);
@@ -270,15 +279,6 @@ button {
   justify-content: center;
 }
 
-.skills-section {
-  display: flex;
-
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  margin: 30px;
-}
 
 .skills-title {
   color: #FFF;
@@ -312,13 +312,12 @@ button {
 .codepen,
 .invision,
 .figma {
+
   margin: 20px;
   background-repeat: no-repeat;
   background-position: center;
-  /* object-fit: ; */
 
-  width: 119px;
-  height: 32px;
+
 }
 
 .html {
@@ -369,6 +368,7 @@ button {
 .agile {
   width: 79px;
   height: 84px;
+  max-width: 100%;
 }
 
 .bootstrap {
@@ -429,5 +429,46 @@ button {
 .figma {
   width: 40px;
   height: 51px;
+}
 
+/* Footer Section */
+
+footer {
+  display: flex;
+
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+
+.bgk-footer {
+  width: 90%;
+  height: 300px;
+  background: rgba(255, 255, 255, 0.29);
+  margin: 150px 30px 50px 30px;
+
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.number,
+.email,
+.links {
+  color: #FFF;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+.footer-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
 }
