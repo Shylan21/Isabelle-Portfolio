@@ -292,29 +292,27 @@ function App() {
 					<div className="bgk-footer">
 						<div className="number">
 							<div className="footer-row">
-								<h4>Call</h4>
+								<h3>Call</h3>
 								<p>---------</p>
 							</div>
 						</div>
 						<div className="email">
 							<div className="footer-row">
-								<h4>Email</h4>
+								<h3>Email</h3>
 								<p>-----------</p>
 							</div>
 						</div>
 						<div className="links">
 							<div className="footer-row">
-								<h4>My Links</h4>
-								<h5>
-									Github:
-									<br />
-									https://github.com/Shylan21
-								</h5>
-								<h5>
-									LinkedIn:
-									<br />
-									https://www.linkedin.com/in/isabelle-tartarelli/
-								</h5>
+								<h3>My Links</h3>
+								<div className="github-link">
+									<h4>Github:</h4>
+									<p>https://github.com/Shylan21</p>
+								</div>
+								<div className="linkedin-link">
+									<h4>LinkedIn:</h4>
+									<p>https://www.linkedin.com/in/isabelle-tartarelli/</p>
+								</div>
 							</div>
 						</div>
 					</div>
