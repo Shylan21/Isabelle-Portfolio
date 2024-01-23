@@ -1,6 +1,17 @@
+/* General */
+
 * {
   font-family: Prompt;
+}
 
+/* Background Color */
+
+.main-bkg {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(247deg, #D9D9D9 0%, #D1CECE 29.05%, #4D4C4C 62.41%, #1E1E1E 85.63%);
+  /* position: relative; */
+  display: grid;
 }
 
 /* Nav Bar */
@@ -62,24 +73,10 @@ button {
   line-height: normal;
 }
 
-/* button:hover {
-  background-color: #1E1E1E;
-  color: #FFF;
-} */
 
 
 /* About Me */
 
-.main-bkg {
-  height: 100%;
-  width: 100%;
-  background: linear-gradient(247deg, #D9D9D9 0%, #D1CECE 29.05%, #4D4C4C 62.41%, #1E1E1E 85.63%);
-
-  position: relative;
-
-  display: grid;
-
-}
 
 .about-me-container {
   display: grid;
@@ -318,8 +315,10 @@ button {
 .invision,
 .figma {
   margin: 0 20px;
+  /* This margin keeps them in 3 lines like I want */
   background-repeat: no-repeat;
   background-position: center;
+  object-fit: contain;
 }
 
 .html {
@@ -476,3 +475,10 @@ footer {
   align-items: center;
   margin: 50px;
 }
+
+/* Animations and Resizing */
+
+/* button:hover {
+  background-color: #1E1E1E;
+  color: #FFF;
+} */

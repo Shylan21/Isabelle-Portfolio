@@ -47,7 +47,7 @@ function App() {
 				<img
 					className="bkg-img"
 					style={{ backgroundImage: `url(${background})` }}
-					alt=""
+					alt="PrincesStreetGardensEdinburgh-img"
 				/>
 				<div className="bkg-shadow">
 					<h1>Welcome</h1>
@@ -92,53 +92,53 @@ function App() {
 						<img
 							className="uomo-shopfront"
 							style={{ backgroundImage: `url(${uomoshopfront})` }}
-							alt=""
+							alt="UomoShopFront-img"
 						/>
 						<img
 							className="movietracker"
 							style={{ backgroundImage: `url(${movietracker})` }}
-							alt=""
+							alt="MovieTracker-img"
 						/>
 						<img
 							className="wolframe"
 							style={{ backgroundImage: `url(${wolframe})` }}
-							alt=""
+							alt="WolframeWebsite-img"
 						/>
 						<img
 							className="spotify"
 							style={{ backgroundImage: `url(${spotify})` }}
-							alt=""
+							alt="Spotify-img"
 						/>
 						<img
 							className="greengrocers"
 							style={{ backgroundImage: `url(${greengrocers})` }}
-							alt=""
+							alt="Greengrocers-img"
 						/>
 						<img
 							className="weather"
 							style={{ backgroundImage: `url(${weather})` }}
-							alt=""
+							alt="WeatherApp-img"
 						/>
 						<img
 							className="pokemoncards"
 							style={{ backgroundImage: `url(${pokemoncards})` }}
-							alt=""
+							alt="PokemonCards-img"
 						/>
 						<img
 							className="streamlabs"
 							style={{ backgroundImage: `url(${streamlabs})` }}
-							alt=""
+							alt="StreamlabsShop-img"
 						/>
 						<img
 							className="brewery"
 							style={{ backgroundImage: `url(${brewery})` }}
-							alt=""
+							alt="Brewery-img"
 						/>
-						<img
+						{/* <img
 							className="calculator"
 							style={{ backgroundImage: `url(${calculator})` }}
-							alt=""
-						/>
+							alt="Calculator-img"
+						/> */}
 					</div>
 				</section>
 				{/* CERTIFICATES */}
@@ -148,17 +148,17 @@ function App() {
 						<img
 							className="shecodeintro"
 							style={{ backgroundImage: `url(${shecodeintro})` }}
-							alt=""
+							alt="SheCodesIntroCertificate"
 						/>
 						<img
 							className="shecodeplus"
 							style={{ backgroundImage: `url(${shecodeplus})` }}
-							alt=""
+							alt="SheCodesPlusCertificate"
 						/>
 						<img
 							className="boolean"
 							style={{ backgroundImage: `url(${boolean})` }}
-							alt=""
+							alt="BooleanUkCertificate"
 						/>
 					</div>
 				</section>
@@ -169,113 +169,113 @@ function App() {
 						<img
 							className="html"
 							style={{ backgroundImage: `url(${html})` }}
-							alt=""
+							alt="html-icon"
 						/>
 						{/* <p>HTML</p> */}
 						<img
 							className="css"
 							style={{ backgroundImage: `url(${css})` }}
-							alt=""
+							alt="css-icon"
 						/>
 						<img
 							className="js"
 							style={{ backgroundImage: `url(${js})` }}
-							alt=""
+							alt="js-icon"
 						/>
 						<img
 							className="react"
 							style={{ backgroundImage: `url(${react})` }}
-							alt=""
+							alt="react-icon"
 						/>
 						<img
 							className="node"
 							style={{ backgroundImage: `url(${node})` }}
-							alt=""
+							alt="node-icon"
 						/>
 						<img
 							className="sql"
 							style={{ backgroundImage: `url(${sql})` }}
-							alt=""
+							alt="postgresql-icon"
 						/>
 						<img
 							className="express"
 							style={{ backgroundImage: `url(${express})` }}
-							alt=""
+							alt="express-icon"
 						/>
 						<img
 							className="tdd"
 							style={{ backgroundImage: `url(${tdd})` }}
-							alt=""
+							alt="tdd-icon"
 						/>
 						<img
 							className="oop"
 							style={{ backgroundImage: `url(${oop})` }}
-							alt=""
+							alt="oop-icon"
 						/>
 						<img
 							className="agile"
 							style={{ backgroundImage: `url(${agile})` }}
-							alt=""
+							alt="agile-icon"
 						/>
 						<img
 							className="bootstrap"
 							style={{ backgroundImage: `url(${bootstrap})` }}
-							alt=""
+							alt="bootstrap-icon"
 						/>
 						<img
 							className="netlify"
 							style={{ backgroundImage: `url(${netlify})` }}
-							alt=""
+							alt="netlify-icon"
 						/>
 						<img
 							className="vsc"
 							style={{ backgroundImage: `url(${vsc})` }}
-							alt=""
+							alt="vscode-icon"
 						/>
 						<img
 							className="cdsndbx"
 							style={{ backgroundImage: `url(${cdsndbx})` }}
-							alt=""
+							alt="codesandbox-icon"
 						/>
 						<img
 							className="insomnia"
 							style={{ backgroundImage: `url(${insomnia})` }}
-							alt=""
+							alt="insomnia-icon"
 						/>
 						<img
 							className="github"
 							style={{ backgroundImage: `url(${github})` }}
-							alt=""
+							alt="github-icon"
 						/>
 						<img
 							className="notion"
 							style={{ backgroundImage: `url(${notion})` }}
-							alt=""
+							alt="notion-icon"
 						/>
 						<img
 							className="tblplus"
 							style={{ backgroundImage: `url(${tlbplus})` }}
-							alt=""
+							alt="tableplus-icon"
 						/>
 						<img
 							className="git"
 							style={{ backgroundImage: `url(${git})` }}
-							alt=""
+							alt="git-icon"
 						/>
 						<img
 							className="codepen"
 							style={{ backgroundImage: `url(${codepen})` }}
-							alt=""
+							alt="codepen-icon"
 						/>
 						<img
 							className="invision"
 							style={{ backgroundImage: `url(${invision})` }}
-							alt=""
+							alt="invision-icon"
 						/>
 						<img
 							className="figma"
 							style={{ backgroundImage: `url(${figma})` }}
-							alt=""
+							alt="figma-icon"
 						/>
 					</div>
 				</section>
