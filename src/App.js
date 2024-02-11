@@ -1,15 +1,6 @@
 import background from './pictures/picture.jpeg'
 import profilePic from './pictures/foto.png'
-import uomoshopfront from './proj-img/UomoShopFront.jpeg'
-import movietracker from './proj-img/MovieTracker.jpeg'
-import wolframe from './proj-img/Wolframe.jpeg'
-import spotify from './proj-img/Spotify.jpeg'
-import streamlabs from './proj-img/Streamlabs.jpeg'
-import weather from './proj-img/WeatherApp.jpeg'
-import greengrocers from './proj-img/Greengrocers.jpeg'
-import brewery from './proj-img/Brewery.jpeg'
-import calculator from './proj-img/Calculator.jpeg'
-import pokemoncards from './proj-img/PokemonCards.jpeg'
+// -----------------------------
 import shecodeintro from './certificates/SheCodesBasicCertificate.png'
 import shecodeplus from './certificates/SheCodesPlusCertificate.png'
 import boolean from './certificates/BooleanCertificate.png'
@@ -17,17 +8,12 @@ import boolean from './certificates/BooleanCertificate.png'
 import './App.css'
 
 import Skill from './components/Skill/Skill'
-const skills = require('./components/Skill/data').skills
+import Project from './components/Project/Project'
 
-const projects = [
-	{
-		id: 'spotify', // Must be unique
-		image: spotify,
-		projectName: 'Spotify',
-		description: 'Recreated the UI for Spotify',
-	},
-	// TODO: Create the rest of me!
-]
+const skills = require('./components/Skill/skill-data').skills
+const projects = require('./components/Project/project-data').projects
+
+
 
 function App() {
 	return (
@@ -78,57 +64,17 @@ function App() {
 				{/* PROJECTS */}
 				<section className="projects-section">
 					<h1 className="project-title">Projects</h1>
-					<div className="projects-pics">
-						<img
-							className="project uomo-shopfront"
-							style={{ backgroundImage: `url(${spotify})` }}
-							alt=""
-						/>
-						<img
-							className="project movietracker"
-							style={{ backgroundImage: `url(${spotify})` }}
-							alt=""
-						/>
-						<img
-							className="project wolframe"
-							style={{ backgroundImage: `url(${spotify})` }}
-							alt=""
-						/>
-						{/* <img
-							className="project spotify"
-							style={{ backgroundImage: `url(${spotify})` }}
-							alt=""
-						/>
-						<img
-							className="project greengrocers"
-							style={{ backgroundImage: `url(${spotify})` }}
-							alt=""
-						/>
-						<img
-							className="project weather"
-							style={{ backgroundImage: `url(${spotify})` }}
-							alt=""
-						/> */}
-						{/* <img
-							className="project pokemoncards"
-							style={{ backgroundImage: `url(${spotify})` }}
-							alt=""
-						/>
-						<img
-							className="project streamlabs"
-							style={{ backgroundImage: `url(${spotify})` }}
-							alt=""
-						/>
-						<img
-							className="project brewery"
-							style={{ backgroundImage: `url(${spotify})` }}
-							alt=""
-						/> */}
-						{/* <img
-							className="project calculator"
-							style={{ backgroundImage: `url(${calculator})` }}
-							alt="Calculator-img"
-						/> */}
+					<div className="projects-image">
+						{projects.map((x, index) => (
+							<Project
+								key={index}
+								id={x.id}
+								className="projects"
+								image={x.image}
+								description={x.description}
+								hideText={x.hideText}
+							/>
+						))}
 					</div>
 				</section>
 				{/* CERTIFICATES */}

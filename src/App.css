@@ -138,84 +138,8 @@ button {
 }
 
 
-/* Project Section */
+/* Project Section in Projects File*/
 
-.projects-section {
-  display: flex;
-  flex-direction: column;
-  margin: 30px;
-}
-
-.project-title {
-  color: #FFF;
-  text-align: center;
-  font-family: Prompt;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.projects-pics {
-  flex: 1;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-.project {
-  /* flex-basis is being used to contro lthe maximum width for each child project so they render in rows of 3 at a time */
-  flex: 1;
-  background: lightgray 50% / cover no-repeat;
-  margin: 25px;
-  width: 33vw;
-  height: 33vh;
-}
-
-/* 1708 x 937 */
-
-/* .uomo-shopfront {
-  width: 420px;
-  height: 210px;
-}
-
-.greengrocers {
-  height: 280px;
-  width: 186px;
-}
-
-.movietracker {
-  width: 420px;
-  height: 210px;
-}
-
-.wolframe,
-.weather,
-.brewery {
-  width: 300px;
-  height: 210px;
-}
-
-.spotify {
-  width: 420px;
-  height: 210px;
-}
-
-.streamlabs {
-  width: 420px;
-  height: 210px;
-}
-
-.calculator {
-  width: 600px;
-  height: 210px;
-}
-
-.pokemoncards {
-  height: 300px;
-  width: 240px;
-} */
 
 /* Certificates Section */
 .certificates-section {
