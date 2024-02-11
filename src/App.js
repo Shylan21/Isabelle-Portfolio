@@ -14,30 +14,20 @@ import shecodeintro from './certificates/SheCodesBasicCertificate.png'
 import shecodeplus from './certificates/SheCodesPlusCertificate.png'
 import boolean from './certificates/BooleanCertificate.png'
 // ----------------------------------------------------
-import html from './SvgSkills/HTML.png'
-import css from './SvgSkills/CSS.png'
-import js from './SvgSkills/JS.png'
-import react from './SvgSkills/React.png'
-import node from './SvgSkills/Node.js.png'
-import sql from './SvgSkills/PostgreSQL.png'
-import express from './SvgSkills/Express.png'
-import tdd from './SvgSkills/TDD.png'
-import oop from './SvgSkills/OOP.png'
-import agile from './SvgSkills/Agile.png'
-import bootstrap from './SvgSkills/Bootstrap.png'
-import netlify from './SvgSkills/Netlify.png'
-import vsc from './SvgSkills/VSCode.png'
-import cdsndbx from './SvgSkills/CodeSandbox.png'
-import insomnia from './SvgSkills/Insomnia.png'
-import github from './SvgSkills/GitHub.png'
-import notion from './SvgSkills/Notion.png'
-import tlbplus from './SvgSkills/TablePlus.png'
-import git from './SvgSkills/Git.png'
-import codepen from './SvgSkills/CodePen.png'
-import invision from './SvgSkills/InVision.png'
-import figma from './SvgSkills/Figma.png'
-// -----------------------------------------------------
 import './App.css'
+
+import Skill from './components/Skill/Skill'
+const skills = require('./components/Skill/data').skills
+
+const projects = [
+	{
+		id: 'spotify', // Must be unique
+		image: spotify,
+		projectName: 'Spotify',
+		description: 'Recreated the UI for Spotify',
+	},
+	// TODO: Create the rest of me!
+]
 
 function App() {
 	return (
@@ -90,52 +80,52 @@ function App() {
 					<h1 className="project-title">Projects</h1>
 					<div className="projects-pics">
 						<img
-							className="uomo-shopfront"
-							style={{ backgroundImage: `url(${uomoshopfront})` }}
-							alt="UOMO-SHOPFRONT"
-						/>
-						<img
-							className="movietracker"
-							style={{ backgroundImage: `url(${movietracker})` }}
-							alt=""
-						/>
-						<img
-							className="wolframe"
-							style={{ backgroundImage: `url(${wolframe})` }}
-							alt=""
-						/>
-						<img
-							className="spotify"
+							className="project uomo-shopfront"
 							style={{ backgroundImage: `url(${spotify})` }}
 							alt=""
 						/>
 						<img
-							className="greengrocers"
-							style={{ backgroundImage: `url(${greengrocers})` }}
+							className="project movietracker"
+							style={{ backgroundImage: `url(${spotify})` }}
 							alt=""
 						/>
 						<img
-							className="weather"
-							style={{ backgroundImage: `url(${weather})` }}
-							alt=""
-						/>
-						<img
-							className="pokemoncards"
-							style={{ backgroundImage: `url(${pokemoncards})` }}
-							alt=""
-						/>
-						<img
-							className="streamlabs"
-							style={{ backgroundImage: `url(${streamlabs})` }}
-							alt=""
-						/>
-						<img
-							className="brewery"
-							style={{ backgroundImage: `url(${brewery})` }}
+							className="project wolframe"
+							style={{ backgroundImage: `url(${spotify})` }}
 							alt=""
 						/>
 						{/* <img
-							className="calculator"
+							className="project spotify"
+							style={{ backgroundImage: `url(${spotify})` }}
+							alt=""
+						/>
+						<img
+							className="project greengrocers"
+							style={{ backgroundImage: `url(${spotify})` }}
+							alt=""
+						/>
+						<img
+							className="project weather"
+							style={{ backgroundImage: `url(${spotify})` }}
+							alt=""
+						/> */}
+						{/* <img
+							className="project pokemoncards"
+							style={{ backgroundImage: `url(${spotify})` }}
+							alt=""
+						/>
+						<img
+							className="project streamlabs"
+							style={{ backgroundImage: `url(${spotify})` }}
+							alt=""
+						/>
+						<img
+							className="project brewery"
+							style={{ backgroundImage: `url(${spotify})` }}
+							alt=""
+						/> */}
+						{/* <img
+							className="project calculator"
 							style={{ backgroundImage: `url(${calculator})` }}
 							alt="Calculator-img"
 						/> */}
@@ -146,137 +136,28 @@ function App() {
 					<h1 className="certificates-title">Certificates</h1>
 					<div className="certificates">
 						<img
-							className="shecodeintro"
-							style={{ backgroundImage: `url(${shecodeintro})` }}
+							className="certificate shecodeintro"
+							src={shecodeintro}
 							alt=""
 						/>
-						<img
-							className="shecodeplus"
-							style={{ backgroundImage: `url(${shecodeplus})` }}
-							alt=""
-						/>
-						<img
-							className="boolean"
-							style={{ backgroundImage: `url(${boolean})` }}
-							alt=""
-						/>
+						<img className="certificate boolean" src={boolean} alt="" />
+						<img className="certificate shecodeplus" src={shecodeplus} alt="" />
 					</div>
 				</section>
 				{/* SKILLS */}
 				<section className="skills-section">
 					<h1 className="skills-title">Skills</h1>
 					<div className="bkg-skill-section">
-						<img
-							className="html"
-							style={{ backgroundImage: `url(${html})` }}
-							alt=""
-						/>
-						{/* <p>HTML</p> */}
-						<img
-							className="css"
-							style={{ backgroundImage: `url(${css})` }}
-							alt=""
-						/>
-						<img
-							className="js"
-							style={{ backgroundImage: `url(${js})` }}
-							alt=""
-						/>
-						<img
-							className="react"
-							style={{ backgroundImage: `url(${react})` }}
-							alt=""
-						/>
-						<img
-							className="node"
-							style={{ backgroundImage: `url(${node})` }}
-							alt=""
-						/>
-						<img
-							className="sql"
-							style={{ backgroundImage: `url(${sql})` }}
-							alt=""
-						/>
-						<img
-							className="express"
-							style={{ backgroundImage: `url(${express})` }}
-							alt=""
-						/>
-						<img
-							className="tdd"
-							style={{ backgroundImage: `url(${tdd})` }}
-							alt="TDD-icon"
-						/>
-						<img
-							className="oop"
-							style={{ backgroundImage: `url(${oop})` }}
-							alt=""
-						/>
-						<img
-							className="agile"
-							style={{ backgroundImage: `url(${agile})` }}
-							alt=""
-						/>
-						<img
-							className="bootstrap"
-							style={{ backgroundImage: `url(${bootstrap})` }}
-							alt=""
-						/>
-						<img
-							className="netlify"
-							style={{ backgroundImage: `url(${netlify})` }}
-							alt=""
-						/>
-						<img
-							className="vsc"
-							style={{ backgroundImage: `url(${vsc})` }}
-							alt=""
-						/>
-						<img
-							className="cdsndbx"
-							style={{ backgroundImage: `url(${cdsndbx})` }}
-							alt=""
-						/>
-						<img
-							className="insomnia"
-							style={{ backgroundImage: `url(${insomnia})` }}
-							alt=""
-						/>
-						<img
-							className="github"
-							style={{ backgroundImage: `url(${github})` }}
-							alt=""
-						/>
-						<img
-							className="notion"
-							style={{ backgroundImage: `url(${notion})` }}
-							alt=""
-						/>
-						<img
-							className="tblplus"
-							style={{ backgroundImage: `url(${tlbplus})` }}
-							alt=""
-						/>
-						<img
-							className="git"
-							style={{ backgroundImage: `url(${git})` }}
-							alt=""
-						/>
-						<img
-							className="codepen"
-							style={{ backgroundImage: `url(${codepen})` }}
-							alt=""
-						/>
-						<img
-							className="invision"
-							style={{ backgroundImage: `url(${invision})` }}
-							alt=""
-						/>
-						<img
-							className="figma"
-							style={{ backgroundImage: `url(${figma})` }}
-							alt=""
-						/>
+						{skills.map((x, index) => (
+							<Skill
+								key={index}
+								id={x.id}
+								className="skill"
+								image={x.image}
+								text={x.text}
+								hideText={x.hideText}
+							/>
+						))}
 					</div>
 				</section>
 				{/* FOOTER */}

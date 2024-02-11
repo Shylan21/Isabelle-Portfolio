@@ -143,7 +143,6 @@ button {
 .projects-section {
   display: flex;
   flex-direction: column;
-
   margin: 30px;
 }
 
@@ -157,21 +156,26 @@ button {
   line-height: normal;
 }
 
-.uomo-shopfront,
-.movietracker,
-.wolframe,
-.spotify,
-.streamlabs,
-.weather,
-.greengrocers,
-.brewery,
-.calculator,
-.pokemoncards {
-  background: lightgray 50% / cover no-repeat;
-  margin: 25px;
+.projects-pics {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
-.uomo-shopfront {
+.project {
+  /* flex-basis is being used to contro lthe maximum width for each child project so they render in rows of 3 at a time */
+  flex: 1;
+  background: lightgray 50% / cover no-repeat;
+  margin: 25px;
+  width: 33vw;
+  height: 33vh;
+}
+
+/* 1708 x 937 */
+
+/* .uomo-shopfront {
   width: 420px;
   height: 210px;
 }
@@ -211,7 +215,7 @@ button {
 .pokemoncards {
   height: 300px;
   width: 240px;
-}
+} */
 
 /* Certificates Section */
 .certificates-section {
@@ -228,6 +232,10 @@ button {
   margin: 30px;
 }
 
+.certificate {
+  margin: 40px;
+}
+
 .certificates-title {
   color: #FFF;
   text-align: center;
@@ -240,194 +248,19 @@ button {
 
 .shecodeintro,
 .shecodeplus {
-  width: 400px;
-  height: 280px;
-
-  background: lightgray 50% / cover no-repeat;
-  margin: 35px;
-
+  flex: 1;
+  width: calc(663px * 0.4);
+  height: calc(937px * 0.4);
 }
 
 .boolean {
-  background-repeat: no-repeat;
-  background-position: center;
-
-  background-size: 280px;
-  margin: 35px;
-
-  width: 280px;
-  height: 390px
+  flex: 1;
+  width: calc(596px * 0.75);
+  height: calc(847px * 0.75);
 }
 
-/* Skills Section */
-.skills-section {
-  display: flex;
+/* Skills Section in Skill File */
 
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-
-.skills-title {
-  color: #FFF;
-  text-align: center;
-  font-family: Prompt;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.bkg-skill-section {
-  width: 100%;
-  height: 400px;
-
-  background: rgba(255, 255, 255, 0.35);
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
-}
-
-.html,
-.css,
-.js,
-.react,
-.node,
-.sql,
-.express,
-.tdd,
-.oop,
-.agile,
-.bootstrap,
-.netlify,
-.vsc,
-.cdsndbx,
-.insomnia,
-.github,
-.notion,
-.tblplus,
-.git,
-.codepen,
-.invision,
-.figma {
-  margin: 0 20px;
-  /* This margin keeps them in 3 lines like I want */
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.html {
-  width: 113px;
-  height: 28px;
-}
-
-.css {
-  width: 85px;
-  height: 28px;
-}
-
-.js {
-  width: 52px;
-  height: 28px;
-}
-
-.react {
-  width: 66px;
-  height: 60px;
-}
-
-.node {
-  width: 52px;
-  height: 60px;
-}
-
-.sql {
-  width: 60px;
-  height: 60px;
-}
-
-.express {
-  width: 65px;
-  height: 65px;
-}
-
-.tdd {
-  width: 90px;
-  height: 90px;
-}
-
-.oop {
-  width: 80px;
-  height: 80px;
-}
-
-.agile {
-  width: 79px;
-  height: 84px;
-}
-
-.bootstrap {
-  width: 70px;
-  height: 60px;
-}
-
-.netlify {
-  width: 60px;
-  height: 62px;
-}
-
-.vsc {
-  width: 63px;
-  height: 65px;
-}
-
-.cdsndbx {
-  width: 68px;
-  height: 69px;
-}
-
-.insomnia {
-  width: 66px;
-  height: 70px;
-}
-
-.github {
-  width: 70px;
-  height: 68px;
-}
-
-.notion {
-  width: 54px;
-  height: 55px;
-}
-
-.tblplus {
-  width: 85px;
-  height: 72px;
-}
-
-.git {
-  width: 70px;
-  height: 73px;
-}
-
-.codepen {
-  width: 60px;
-  height: 68px;
-}
-
-.invision {
-  width: 48px;
-  height: 50px;
-}
-
-.figma {
-  width: 40px;
-  height: 60px;
-}
 
 /* Footer Section */
 
