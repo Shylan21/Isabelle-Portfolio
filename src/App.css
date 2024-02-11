@@ -138,52 +138,13 @@ button {
 }
 
 
-/* Project Section in Projects File*/
+/* Project Section in Projects Component */
 
 
-/* Certificates Section */
-.certificates-section {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
+/* Certificates Section in Skill Component*/
 
-.certificates {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  margin: 30px;
-}
 
-.certificate {
-  margin: 40px;
-}
-
-.certificates-title {
-  color: #FFF;
-  text-align: center;
-  font-family: Prompt;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.shecodeintro,
-.shecodeplus {
-  flex: 1;
-  width: calc(663px * 0.4);
-  height: calc(937px * 0.4);
-}
-
-.boolean {
-  flex: 1;
-  width: calc(596px * 0.75);
-  height: calc(847px * 0.75);
-}
-
-/* Skills Section in Skill File */
+/* Skills Section in Skill Component */
 
 
 /* Footer Section */

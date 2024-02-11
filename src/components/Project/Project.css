@@ -31,19 +31,17 @@
   height: 33vh;
 } */
 
-/* 1708 x 937 */
-
 #uomoshopfront,
 #movietracker,
 #wolframe,
 #spotify,
 #weather {
+  display: flex;
   margin: 30px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 
-  display: flex;
 }
 
 #uomoshopfront {

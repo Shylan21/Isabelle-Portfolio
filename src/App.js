@@ -1,18 +1,18 @@
 import background from './pictures/picture.jpeg'
 import profilePic from './pictures/foto.png'
 // -----------------------------
-import shecodeintro from './certificates/SheCodesBasicCertificate.png'
-import shecodeplus from './certificates/SheCodesPlusCertificate.png'
-import boolean from './certificates/BooleanCertificate.png'
+
 // ----------------------------------------------------
 import './App.css'
 
 import Skill from './components/Skill/Skill'
 import Project from './components/Project/Project'
+import Certificates from './components/Certificates/Certificates'
+ 
 
 const skills = require('./components/Skill/skill-data').skills
 const projects = require('./components/Project/project-data').projects
-
+const certificates = require('./components/Certificates/certificate-data').certificates
 
 
 function App() {
@@ -80,14 +80,15 @@ function App() {
 				{/* CERTIFICATES */}
 				<section className="certificates-section">
 					<h1 className="certificates-title">Certificates</h1>
-					<div className="certificates">
-						<img
-							className="certificate shecodeintro"
-							src={shecodeintro}
-							alt=""
-						/>
-						<img className="certificate boolean" src={boolean} alt="" />
-						<img className="certificate shecodeplus" src={shecodeplus} alt="" />
+					<div className="certificates-image">
+						{certificates.map((x, index) => (
+							<Certificates
+								key={index}
+								id={x.id}
+								className="certificates"
+								image={x.image}
+							/>
+						))}
 					</div>
 				</section>
 				{/* SKILLS */}
