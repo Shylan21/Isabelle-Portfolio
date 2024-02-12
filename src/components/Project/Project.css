@@ -1,7 +1,7 @@
 .projects-section {
   display: flex;
   flex-direction: column;
-  margin: 30px;
+
 }
 
 .project-title {
@@ -15,34 +15,27 @@
 }
 
 .projects-image {
-  flex: 1;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
+  /* Keeps the second line in the middle */
 }
 
-/* flex-basis is being used to contro lthe maximum width for each child project so they render in rows of 3 at a time */
-/* .project {
-  flex: 1;
-  background: lightgray 50% / cover no-repeat;
-  margin: 25px;
-  width: 33vw;
-  height: 33vh;
-} */
 
+/* This block keeps the projects in 2 lines, centered and is responsive to screen size */
 #uomoshopfront,
 #movietracker,
 #wolframe,
 #spotify,
 #weather {
+  flex: 1;
   display: flex;
-  margin: 30px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-
+  margin: 20px;
+  align-content: center;
+  justify-content: space-around;
 }
+
 
 #uomoshopfront {
   width: 420px;
@@ -50,14 +43,15 @@
 }
 
 #movietracker {
-  width: 420px;
+  width: 376px;
   height: 210px;
 }
 
 #wolframe,
 #weather
+
 /* .brewery */
-{
+  {
   width: 300px;
   height: 300px;
 }

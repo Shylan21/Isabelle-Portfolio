@@ -19,14 +19,13 @@
   flex: 1;
   flex-direction: row;
   align-items: center;
-
 }
 
 #shecodeintro,
 #shecodeplus,
 #boolean {
   display: flex;
- gap: 10px;
+  gap: 10px;
   /* width: calc(50% - 40px); */
   /* To make it responsive */
 }
