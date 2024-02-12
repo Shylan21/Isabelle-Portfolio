@@ -1,6 +1,7 @@
 .certificates-section {
   display: flex;
   flex-direction: column;
+  margin-top: 100px;
 }
 
 .certificates-title {
@@ -11,6 +12,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+
 }
 
 .certificates-image {
@@ -37,7 +39,7 @@
   flex: 1;
   /* width: calc(663px * 0.3);
   height: calc(937px * 0.35); 
-  With these sizes is not responsive */ 
+  With these sizes is not responsive */
 
   width: 500px;
   height: 309px;

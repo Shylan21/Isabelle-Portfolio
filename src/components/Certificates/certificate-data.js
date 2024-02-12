@@ -1,6 +1,6 @@
-import shecodeintro from '../../certificates/SheCodesBasicCertificate.png'
-import shecodeplus from '../../certificates/SheCodesPlusCertificate.png'
-import boolean from '../../certificates/BooleanCertificate.png'
+import shecodeintro from '../../assets/certificates/SheCodesBasicCertificate.png'
+import shecodeplus from '../../assets/certificates/SheCodesPlusCertificate.png'
+import boolean from '../../assets/certificates/BooleanCertificate.png'
 
 const certificates = [
 	{

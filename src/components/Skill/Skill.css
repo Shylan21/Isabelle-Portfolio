@@ -1,6 +1,7 @@
 .skills-section {
   display: flex;
   flex-direction: column;
+  margin-top: 100px;
 }
 
 /* Keeps image and text aligned */
@@ -20,6 +21,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+ 
 }
 
 .skill-text {
