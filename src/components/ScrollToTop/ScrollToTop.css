@@ -1,0 +1,39 @@
+.scroll-container {
+  display: flex;
+  position: relative;
+  /* add this to establish a containing block for the arrow-up image */
+}
+
+.top-button-container {
+  display: flex;
+  position: fixed;
+  right: -5px;
+  bottom: 5rem;
+}
+
+.top-button,
+.arrow-up {
+  display: flex;
+  border-radius: 50px;
+
+  width: 50px;
+  height: 50px;
+}
+
+.top-button {
+  background: linear-gradient(180deg, rgba(186, 186, 186, 0.386) 0%, #330045a3 100%);
+  border-color: #0000006b;
+}
+
+.arrow-up {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  /* add this to position the arrow-up image absolutely */
+  top: 5px;
+  /* adjust this value to position the arrow-up image on top of the top-button */
+  left: 50%;
+  /* center the arrow-up image horizontally */
+  transform: translateX(-50%);
+  /* center the arrow-up image horizontally */
+}

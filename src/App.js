@@ -6,11 +6,12 @@ import './App.css'
 import Skill from './components/Skill/Skill'
 import Project from './components/Project/Project'
 import Certificates from './components/Certificates/Certificates'
- 
+import ScrollToTop from './components/ScrollToTop/ScrollToTop'
+
 const skills = require('./components/Skill/skill-data').skills
 const projects = require('./components/Project/project-data').projects
-const certificates = require('./components/Certificates/certificate-data').certificates
-
+const certificates =
+	require('./components/Certificates/certificate-data').certificates
 
 function App() {
 	return (
@@ -135,6 +136,7 @@ function App() {
 					</div>
 				</footer>
 			</div>
+			<ScrollToTop />
 		</div>
 	)
 }
