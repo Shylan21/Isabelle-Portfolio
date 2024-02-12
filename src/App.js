@@ -1,15 +1,12 @@
 import background from './pictures/picture.jpeg'
 import profilePic from './pictures/foto.png'
-// -----------------------------
-
 // ----------------------------------------------------
 import './App.css'
-
+// ----------------------------------------------------
 import Skill from './components/Skill/Skill'
 import Project from './components/Project/Project'
 import Certificates from './components/Certificates/Certificates'
  
-
 const skills = require('./components/Skill/skill-data').skills
 const projects = require('./components/Project/project-data').projects
 const certificates = require('./components/Certificates/certificate-data').certificates
