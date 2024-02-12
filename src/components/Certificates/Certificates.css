@@ -1,7 +1,6 @@
 .certificates-section {
   display: flex;
   flex-direction: column;
-
 }
 
 .certificates-title {
@@ -45,7 +44,6 @@
 }
 
 #boolean {
- 
   width: calc(596px * 0.6);
   height: calc(847px * 0.6);
 }

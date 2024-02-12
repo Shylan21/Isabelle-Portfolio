@@ -1,15 +1,15 @@
+.skills-section {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Keeps image and text aligned */
 .skill {
   display: flex;
   flex-flow: column;
-}
-
-.skill-image {
-  width: 100%;
-  height: 100%;
-}
-
-.skill-text {
-  text-align: center;
+  margin: 10px;
+  align-items: center;
+  justify-items: center;
 }
 
 .skills-title {
@@ -22,19 +22,35 @@
   line-height: normal;
 }
 
-.bkg-skill-section {
-  width: 100%;
-  height: 400px;
-
-  background: rgba(255, 255, 255, 0.35);
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
+.skill-text {
+  text-align: center;
+  font-family: 'Press Start 2P';
+  font-size: 10px;
 }
 
+.skill-image {
+  width: 100%;
+  height: 100%;
+  /* Keeps images the smaller sizes but why? Shouldn't the id the one to set the sizes? */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.bkg-skill-section {
+  width: 100%;
+  min-height: 350px;
+  background: rgba(255, 255, 255, 0.35);
+  gap: 20px;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Target individual skills via their #id */
 #html,
 #css,
 #js,
@@ -57,14 +73,10 @@
 #codepen,
 #invision,
 #figma {
-  margin: 0 10px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  align-items: center;
-
+  display: flex;
+  align-content: center;
+  justify-items: center;
 }
-/* Target individual skills via their #id */
 
 #html {
   width: 113px;
@@ -175,3 +187,31 @@
   width: 40px;
   height: 60px;
 }
+
+/* For screens smaller than 768px, display each skill in a new row */
+/* @media screen and (max-width: 767px) {
+  .skill {
+    width: 100%;
+  }
+} */
+
+/* For screens between 768px and 991px, display two skills in each row */
+/* @media screen and (min-width: 768px) and (max-width: 991px) {
+  .skill {
+    width: 47%;
+  }
+} */
+
+/* For screens between 992px and 1199px, display three skills in each row */
+/* @media screen and (min-width: 992px) and (max-width: 1199px) {
+  .skill {
+    width: 31%;
+  }
+} */
+
+/* For screens larger than 1200px, display four skills in each row */
+/* @media screen and (min-width: 1200px) {
+  .skill {
+    width: 23%;
+  }
+} */
