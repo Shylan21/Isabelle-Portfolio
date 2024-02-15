@@ -1,12 +1,11 @@
 import './AboutMe.css'
 import profilePic from '../../pictures/foto.png'
-import { useRef } from 'react'
+
 
 const AboutMe = () => {
-	const aboutMeRef = useRef(null)
 	return (
 		<main>
-			<div className="about-me-container" ref={aboutMeRef}>
+			<div className="about-me-container" id="about-me" >
 				<h1 className="about-me-title"> A Bit About Me</h1>
 				<img className="about-me-image" src={profilePic} alt="" />
 				<p className="about-me-text">

@@ -24,49 +24,7 @@
 
 /* Skills Section in Skill Component */
 
-/* Footer Section */
-
-footer {
-  margin-top: 80px;
-  display: flex;
-
-  justify-content: center;
-  flex-direction: column;
-  flex-wrap: wrap;
-
-}
-
-.bgk-footer {
-  /* min-width: 80%;
-  max-width: 90%; */
-  width: 90%;
-  height: 300px;
-  background: rgba(255, 255, 255, 0.29);
-  margin: 150px 30px 50px 30px;
-
-  display: flex;
-  align-self: center;
-  align-items: center;
-  justify-content: space-evenly;
-
-}
-
-.number,
-.email,
-.links {
-  color: #FFF;
-  text-align: center;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.footer-row {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 50px;
-}
+/* Footer Section in Contact component */
 
 /* Animations and Resizing */
 

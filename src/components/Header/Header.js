@@ -3,6 +3,13 @@ import './Header.css'
 import background from '../../pictures/picture.jpeg'
 
 const Header = () => {
+	const scrollToComponent = (id) => {
+		const component = document.getElementById(id)
+		if (component) {
+			component.scrollIntoView({ behavior: 'smooth' })
+		}
+	}
+
 	return (
 		<header>
 			<img
@@ -16,11 +23,19 @@ const Header = () => {
 					I'm Isabelle, a Full-Stack Software Developer living in Scotland.
 				</h2>
 				<div className="button-container">
-					<button>About Me</button>
-					<button>Projects</button>
-					<button>Certificates</button>
-					<button>Skills</button>
-					<button>Contacts</button>
+					<button onClick={() => scrollToComponent('about-me')}>
+						About Me
+					</button>
+					<button onClick={() => scrollToComponent('projects')}>
+						Projects
+					</button>
+					<button onClick={() => scrollToComponent('certificates')}>
+						Certificates
+					</button>
+					<button onClick={() => scrollToComponent('skills')}>Skills</button>
+					<button onClick={() => scrollToComponent('contacts')}>
+						Contacts
+					</button>
 				</div>
 			</div>
 		</header>
