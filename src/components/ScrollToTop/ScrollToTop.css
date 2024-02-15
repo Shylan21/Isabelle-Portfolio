@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .scroll-container {
   display: flex;
   position: relative;
@@ -26,8 +30,8 @@
 }
 
 .arrow-up {
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
   position: absolute;
   /* add this to position the arrow-up image absolutely */
   top: 10px;
