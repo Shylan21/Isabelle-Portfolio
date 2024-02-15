@@ -12,8 +12,10 @@ const ScrollToTop = () => {
 		<>
 			<div class="scroll-container">
 				<div class="top-button-container">
-					<img src={arrowup} alt="" class="arrow-up" onClick={scroll} />
-					<button class="top-button"></button>
+					<button class="top-button" onClick={scroll}>
+						{' '}
+						<img src={arrowup} alt="" class="arrow-up" />
+					</button>
 				</div>
 			</div>
 		</>

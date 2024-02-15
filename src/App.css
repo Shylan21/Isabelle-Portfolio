@@ -132,6 +132,8 @@ button {
 .resume-button {
   grid-area: resume-btn;
   margin: 10px;
+  width: 170px;
+  height: 50px;
 }
 
 

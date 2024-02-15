@@ -21,16 +21,16 @@
 }
 
 .top-button {
-  background: linear-gradient(180deg, rgba(186, 186, 186, 0.386) 0%, #330045a3 100%);
-  border-color: #0000006b;
+  background: #0000;
+  border-color: #00000000;
 }
 
 .arrow-up {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   position: absolute;
   /* add this to position the arrow-up image absolutely */
-  top: 5px;
+  top: 10px;
   /* adjust this value to position the arrow-up image on top of the top-button */
   left: 50%;
   /* center the arrow-up image horizontally */
