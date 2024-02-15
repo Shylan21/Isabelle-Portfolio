@@ -1,14 +1,13 @@
-import background from './pictures/picture.jpeg'
-// import profilePic from './pictures/foto.png'
 // ----------------------------------------------------
 import './App.css'
 import { useRef } from 'react'
 // ----------------------------------------------------
-import Skill from './components/Skill/Skill'
+import Header from './components/Header/Header'
+import AboutMe from './components/AboutMe/AboutMe'
 import Project from './components/Project/Project'
 import Certificates from './components/Certificates/Certificates'
+import Skill from './components/Skill/Skill'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
-import AboutMe from './components/AboutMe/AboutMe'
 
 const skills = require('./components/Skill/skill-data').skills
 const projects = require('./components/Project/project-data').projects
@@ -16,11 +15,10 @@ const certificates =
 	require('./components/Certificates/certificate-data').certificates
 
 function App() {
-
 	return (
 		<div className="App">
 			{/* HEADER */}
-			<header>
+			{/* <header>
 				<img
 					className="bkg-img"
 					style={{ backgroundImage: `url(${background})` }}
@@ -39,7 +37,8 @@ function App() {
 						<button>Contacts</button>
 					</div>
 				</div>
-			</header>
+			</header> */}
+			<Header />
 			<div className="main-bkg">
 				{/* ABOUT ME */}
 				<AboutMe />
