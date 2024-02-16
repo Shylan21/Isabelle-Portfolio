@@ -9,7 +9,6 @@ const Header = () => {
 			component.scrollIntoView({ behavior: 'smooth' })
 		}
 	}
-
 	return (
 		<header>
 			<img
@@ -23,9 +22,7 @@ const Header = () => {
 					I'm Isabelle, a Full-Stack Software Developer living in Scotland.
 				</h2>
 				<div className="button-container">
-					<button onClick={() => scrollToComponent('about-me')}>
-						About Me
-					</button>
+					<button onClick={() => scrollToComponent('aboutMe')}>About Me</button>
 					<button onClick={() => scrollToComponent('projects')}>
 						Projects
 					</button>
@@ -33,9 +30,7 @@ const Header = () => {
 						Certificates
 					</button>
 					<button onClick={() => scrollToComponent('skills')}>Skills</button>
-					<button onClick={() => scrollToComponent('contacts')}>
-						Contacts
-					</button>
+					<button onClick={() => scrollToComponent('contacts')}>Contacts</button>
 				</div>
 			</div>
 		</header>

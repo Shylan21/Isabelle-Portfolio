@@ -25,7 +25,9 @@ function App() {
 				<AboutMe />
 				{/* PROJECTS */}
 				<section className="projects-section">
-					<h1 className="project-title">Projects</h1>
+					<h1 className="project-title" id="projects">
+						Projects
+					</h1>
 					<div className="projects-image">
 						{projects.map((x, index) => (
 							<Project
@@ -40,7 +42,7 @@ function App() {
 					</div>
 				</section>
 				{/* CERTIFICATES */}
-				<section className="certificates-section">
+				<section className="certificates-section" id="certificates">
 					<h1 className="certificates-title">Certificates</h1>
 					<div className="certificates-image">
 						{certificates.map((x, index) => (
@@ -54,7 +56,7 @@ function App() {
 					</div>
 				</section>
 				{/* SKILLS */}
-				<section className="skills-section">
+				<section className="skills-section" id="skills">
 					<h1 className="skills-title">Skills</h1>
 					<div className="bkg-skill-section">
 						{skills.map((x, index) => (

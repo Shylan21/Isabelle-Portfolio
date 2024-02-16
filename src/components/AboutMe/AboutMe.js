@@ -5,7 +5,7 @@ import profilePic from '../../pictures/foto.png'
 const AboutMe = () => {
 	return (
 		<main>
-			<div className="about-me-container" id="about-me" >
+			<div className="about-me-container" id='aboutMe' >
 				<h1 className="about-me-title"> A Bit About Me</h1>
 				<img className="about-me-image" src={profilePic} alt="" />
 				<p className="about-me-text">
