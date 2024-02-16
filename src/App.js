@@ -20,6 +20,7 @@ function App() {
 		<div className="App">
 			{/* HEADER */}
 			<Header />
+			{/* MAIN DIV */}
 			<div className="main-bkg">
 				{/* ABOUT ME */}
 				<AboutMe />
@@ -74,6 +75,7 @@ function App() {
 				{/* FOOTER */}
 				<Contacts />
 			</div>
+			{/* SCROLL TO TOP BUTTON */}
 			<ScrollToTop />
 		</div>
 	)

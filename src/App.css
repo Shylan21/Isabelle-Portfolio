@@ -4,6 +4,10 @@
   font-family: Prompt;
 }
 
+body {
+  margin: 0
+}
+
 /* Background Color */
 
 .main-bkg {
