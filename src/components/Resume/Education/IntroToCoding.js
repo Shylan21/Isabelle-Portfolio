@@ -2,7 +2,7 @@ import '../Resume.css'
 
 const IntroToCode = () => {
 	return (
-		<div className="introtocode">
+		<div id="introtocode" className="school">
 			<span className="date"> 10/2022 - 11/2022 </span>
 			<h1 className="titles"> Introduction To Coding </h1>
 			<h2 className="titles"> SheCodes </h2>

@@ -2,7 +2,7 @@ import '../Resume.css'
 
 const ChefExp = () => {
 	return (
-		<div className="chef-exp">
+		<div id="chef-exp">
 			<span className="date"> 06/2019 - 08/2023 </span>
 			<h1 className="titles"> Chef De Partie </h1>
 			<h2 className="titles"> Kyloe, Signature Pubs </h2>

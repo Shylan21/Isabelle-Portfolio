@@ -25,11 +25,14 @@ const Resume = () => {
 			</section>
 			{/* SECTION - EDUCATION */}
 			<section className="education-container">
-				<h1 className="education-title"> Education</h1>
+        <h1 className="education-title"> Education</h1>
+        <div className='schools'>
 				<BooleanEd />
 				<WebDev />
         <IntroToCode />
-        {/* <Diploma/>  */}
+        <Diploma/> 
+
+        </div>
 			</section>
 			{/* FOOTER */}
 			<Contacts />

@@ -2,7 +2,7 @@ import '../Resume.css'
 
 const BooleanEd = () => {
 	return (
-		<div className="boolean-ed">
+		<div id="boolean-ed" className='school'>
 			<span className="date"> 02/2023 - 09/2023 </span>
 			<h1 className="titles"> Full-Stack Software Development Graduate </h1>
 			<h2 className="titles"> Boolean UK </h2>
