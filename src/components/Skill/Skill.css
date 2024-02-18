@@ -50,6 +50,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  padding-bottom: 20px;
 }
 
 /* Target individual skills via their #id */
