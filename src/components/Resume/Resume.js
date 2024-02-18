@@ -1,17 +1,25 @@
 import './Resume.css'
+
 import { useNavigate } from 'react-router-dom'
 
 const Resume = () => {
 	const navigate = useNavigate()
 
-	return (
-		<div className="resume">
+  return (
+    <>
+    {/* TOP BAR  */}
+		<div className="top-bar-bkg">
+			<h1 className="title-resume">Resume</h1>
 			<button className="go-back" onClick={() => navigate('/')}>
 				{' '}
 				Go Back{' '}
 			</button>
-			<h1 className="education">Education</h1>
-		</div>
+    </div>
+     {/* MAIN  */}
+    <main>
+        
+    </main>
+    </>
 	)
 }
 
