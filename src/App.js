@@ -87,6 +87,7 @@ function App() {
 						</div>
 					}
 				/>
+				<Route path="/" element={<App />} />
 				<Route path="/resume" element={<Resume />} />
 			</Routes>
 		</Router>
