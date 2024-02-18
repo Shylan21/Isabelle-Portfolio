@@ -33,15 +33,17 @@ html {
   right: 50px;
 }
 
-/* MAIN */
+/* WORK - EDUCATION GENERAL */
 
-.main-container {
+.exp-container,
+.education-container {
   display: flex;
   flex-direction: row;
   margin-top: 50px;
 }
 
-.work-exp-title {
+.work-exp-title,
+.education-title {
   text-align: center;
   margin: 200px 40px;
   color: #000;
@@ -52,6 +54,7 @@ html {
   color: #000;
   font-weight: normal;
   text-align: left;
+  margin-top: 40px;
 }
 
 .date {
@@ -60,20 +63,24 @@ html {
   padding: 5px 10px;
   border-radius: 5px;
 }
-/* BOOLEAN EXPERIENCE */
 
-.boolean-exp {
+.boolean-exp,
+.chef-exp,
+.boolean-ed,
+.webdev,
+.introtocode,
+.diploma {
   align-content: center;
   background-color: #130b0b19;
-  padding: 40px;
+  padding: 30px;
   margin: 40px;
 }
 
+/* BOOLEAN EXPERIENCE */
 /* CHEF EXPERIENCE */
 
-.chef-exp {
-  align-content: center;
-  background-color: #130b0b19;
-  padding: 40px;
-  margin: 40px;
-}
+
+/* EDUCATION */
+
+
+

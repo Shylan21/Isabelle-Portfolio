@@ -5,22 +5,32 @@ import BooleanExp from './WorkExperience/BooleanExp'
 import ChefExp from './WorkExperience/ChefExp'
 import Contacts from '../Contacts/Contacts'
 import ScrollToTop from '../ScrollToTop/ScrollToTop'
+import BooleanEd from './Education/Boolean'
+import WebDev from './Education/WebDevelopment'
+import IntroToCode from './Education/IntroToCoding'
+import Diploma from './Education/Diploma'
 
 const Resume = () => {
-
 	return (
 		<>
 			{/* TOP BAR  */}
-		
 			<TopBar />
-			{/* MAIN  */}
-			<main className="main-container">
+			{/* SECTION - WORK */}
+			<section className="exp-container">
 				<h1 className="work-exp-title"> Work Experience</h1>
 				{/* BOOLEAN */}
 				<BooleanExp />
 				{/* CHEF */}
 				<ChefExp />
-			</main>
+			</section>
+			{/* SECTION - EDUCATION */}
+			<section className="education-container">
+				<h1 className="education-title"> Education</h1>
+				<BooleanEd />
+				<WebDev />
+        <IntroToCode />
+        {/* <Diploma/>  */}
+			</section>
 			{/* FOOTER */}
 			<Contacts />
 			<ScrollToTop />
