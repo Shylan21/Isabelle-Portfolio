@@ -1,8 +1,10 @@
 import './AboutMe.css'
 import profilePic from '../../pictures/foto.png'
-import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 const AboutMe = () => {
+	const navigate = useNavigate()
+
 	return (
 		<main>
 			<div className="about-me-container" id="aboutMe">
@@ -19,9 +21,9 @@ const AboutMe = () => {
 					leverage my passion for technology and my newly acquired software
 					development knowledge to excel as a junior software developer.
 				</p>
-				<Link to="/Resume" className="resume-button">
-					<button className="resume-button">Resume</button>
-				</Link>
+				<button className="resume-button" onClick={() => navigate('/resume')}>
+					Resume
+				</button>
 			</div>
 		</main>
 	)
