@@ -40,6 +40,7 @@ html {
   display: flex;
   flex-direction: row;
   margin-top: 50px;
+
 }
 
 .work-exp-title,
@@ -55,7 +56,7 @@ html {
   color: #000;
   font-weight: normal;
   text-align: left;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 .date {
@@ -75,21 +76,13 @@ html {
   background-color: #130b0b19;
   padding: 30px;
   margin: 40px;
+  
 }
-
 
 /* BOOLEAN EXPERIENCE */
 /* CHEF EXPERIENCE */
 
 
 /* EDUCATION */
-.education-container {
-  display: flex;
-  flex: wrap;
-  justify-content: space-around;
-}
 
 
-.education-title {
-  
-}

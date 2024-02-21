@@ -2,7 +2,7 @@ import '../Resume.css'
 
 const BooleanEd = () => {
 	return (
-		<div id="boolean-ed" className='school'>
+		<div id="boolean-ed">
 			<span className="date"> 02/2023 - 09/2023 </span>
 			<h1 className="titles"> Full-Stack Software Development Graduate </h1>
 			<h2 className="titles"> Boolean UK </h2>
@@ -13,7 +13,8 @@ const BooleanEd = () => {
 				</li>
 				<li>Learned how to turn user requirements into quality software.</li>
 				<li>
-					​Practised using Trello, Figma and Miro, holding stand-ups and retros,
+					Practised using Trello, Figma and Miro, holding stand-ups and retros,
+				<br/>
 					strategies concerning branching, pull request and merge conflict
 					resolution.
 				</li>

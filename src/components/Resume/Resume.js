@@ -12,12 +12,12 @@ import Diploma from './Education/Diploma'
 
 const Resume = () => {
 	return (
-		<>
+		<div>
 			{/* TOP BAR  */}
 			<TopBar />
 			{/* SECTION - WORK */}
 			<section className="exp-container">
-				<h1 className="work-exp-title"> Work Experience</h1>
+				<h1 className="work-exp-title">Work Experience</h1>
 				{/* BOOLEAN */}
 				<BooleanExp />
 				{/* CHEF */}
@@ -25,19 +25,16 @@ const Resume = () => {
 			</section>
 			{/* SECTION - EDUCATION */}
 			<section className="education-container">
-        <h1 className="education-title"> Education</h1>
-        <div className='schools'>
+				<h1 className="education-title"> Education</h1>
 				<BooleanEd />
 				<WebDev />
-        <IntroToCode />
+				<IntroToCode />
         <Diploma/> 
-
-        </div>
 			</section>
 			{/* FOOTER */}
 			<Contacts />
 			<ScrollToTop />
-		</>
+		</div>
 	)
 }
 
