@@ -10,15 +10,18 @@ import WebDev from './Education/WebDevelopment'
 import IntroToCode from './Education/IntroToCoding'
 import Diploma from './Education/Diploma'
 import OneDev from './WorkExperience/OneDevAway'
+import { useEffect } from 'react'
 
 const Resume = () => {
+	useEffect(() => window.scrollTo(0, 0)) // When the component mounts
+
 	return (
 		<div className="container">
 			{/* TOP BAR  */}
 			<TopBar />
 			{/* SECTION - WORK */}
+			<h1 className="work-exp-title">Work Experience</h1>
 			<section className="exp-container">
-				<h1 className="work-exp-title">Work Experience</h1>
 				{/* ONEDEVAVAY */}
 				<OneDev />
 				{/* BOOLEAN */}
@@ -27,12 +30,12 @@ const Resume = () => {
 				<ChefExp />
 			</section>
 			{/* SECTION - EDUCATION */}
+			<h1 className="education-title"> Education</h1>
 			<section className="education-container">
-				<h1 className="education-title"> Education</h1>
 				<BooleanEd />
 				<WebDev />
-				{/* <IntroToCode />
-        <Diploma/>  */}
+				<IntroToCode />
+				<Diploma />
 			</section>
 			{/* FOOTER */}
 			<Contacts />
