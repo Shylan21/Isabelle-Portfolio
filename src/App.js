@@ -68,7 +68,7 @@ function App() {
 								<motion.section
 									className="skills-section"
 									id="skills"
-									initial={{ x: '20%', opacity: 0, scale: 0.5 }}
+									initial={{ x: '0%', opacity: 0, scale: 0.5 }}
 									whileInView={{ x: 0, opacity: 1, scale: 1 }}
 									transition={{ duration: 1.5, ease: 'easeIn' }}
 								>
