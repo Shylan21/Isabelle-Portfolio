@@ -8,7 +8,13 @@ const AboutMe = () => {
 
 	return (
 		<main>
-			<div className="about-me-container" id="aboutMe">
+			<motion.div
+				className="about-me-container"
+				id="aboutMe"
+				initial={{ opacity: 0, scale: 0.5 }}
+				whileInView={{  opacity: 1, scale: 1 }}
+				transition={{ duration: 1, ease: 'easeIn' }}
+			>
 				<h1 className="about-me-title"> A Bit About Me</h1>
 				<img className="about-me-image" src={profilePic} alt="" />
 				<p className="about-me-text">
@@ -30,7 +36,7 @@ const AboutMe = () => {
 				>
 					Resume
 				</motion.button>
-			</div>
+			</motion.div>
 		</main>
 	)
 }

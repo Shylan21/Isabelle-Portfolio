@@ -1,7 +1,7 @@
 // ----------------------------------------------------
 import './App.css'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import Resume from './components/Resume/Resume'
+import { motion } from 'framer-motion'
 // ----------------------------------------------------
 /* Importing Components  */
 import Header from './components/Header/Header'
@@ -11,6 +11,7 @@ import Certificates from './components/Certificates/Certificates'
 import Skill from './components/Skill/Skill'
 import Contacts from './components/Contacts/Contacts'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
+import Resume from './components/Resume/Resume'
 
 const skills = require('./components/Skill/skill-data').skills
 const projects = require('./components/Project/project-data').projects
@@ -64,7 +65,13 @@ function App() {
 									</div>
 								</section>
 								{/* SKILLS */}
-								<section className="skills-section" id="skills">
+								<motion.section
+									className="skills-section"
+									id="skills"
+									initial={{ x: '20%', opacity: 0, scale: 0.5 }}
+									whileInView={{ x: 0, opacity: 1, scale: 1 }}
+									transition={{ duration: 1.5, ease: 'easeIn' }}
+								>
 									<h1 className="skills-title">Skills</h1>
 									<div className="bkg-skill-section">
 										{skills.map((x, index) => (
@@ -78,7 +85,7 @@ function App() {
 											/>
 										))}
 									</div>
-								</section>
+								</motion.section>
 								{/* FOOTER */}
 								<Contacts />
 							</div>
