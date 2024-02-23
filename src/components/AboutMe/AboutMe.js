@@ -1,7 +1,8 @@
 import './AboutMe.css'
 import profilePic from '../../pictures/foto.png'
 import { useNavigate } from 'react-router-dom'
-import { motion } from 'framer-motion'
+import { motion, useInView } from 'framer-motion'
+import { useEffect, useRef } from 'react'
 
 const AboutMe = () => {
 	const navigate = useNavigate()
@@ -12,8 +13,8 @@ const AboutMe = () => {
 				className="about-me-container"
 				id="aboutMe"
 				initial={{ opacity: 0, scale: 0.5 }}
-				whileInView={{  opacity: 1, scale: 1 }}
-				transition={{ duration: 1, ease: 'easeIn' }}
+				whileInView={{ opacity: 1, scale: 1 }}
+				transition={{ duration: 0.7, ease: 'easeIn' }}
 			>
 				<h1 className="about-me-title"> A Bit About Me</h1>
 				<img className="about-me-image" src={profilePic} alt="" />

@@ -18,6 +18,25 @@ const projects = require('./components/Project/project-data').projects
 const certificates =
 	require('./components/Certificates/certificate-data').certificates
 
+const projSection = {
+	hidden: { opacity: 1, scale: 0 },
+	visible: {
+		opacity: 1,
+		scale: 1,
+		transition: {
+			delayChildren: 0.3,
+			staggerChildren: 0.2,
+		},
+	},
+}
+
+const projectsItems = {
+	hidden: { y: 20, opacity: 0 },
+	visible: {
+		y: 0,
+		opacity: 1,
+	},
+}
 function App() {
 	return (
 		<Router>
@@ -51,7 +70,10 @@ function App() {
 									</div>
 								</section>
 								{/* CERTIFICATES */}
-								<section className="certificates-section" id="certificates">
+								<section
+									className="certificates-section"
+									id="certificates"
+								>
 									<h1 className="certificates-title">Certificates</h1>
 									<div className="certificates-image">
 										{certificates.map((x, index) => (
@@ -70,7 +92,7 @@ function App() {
 									id="skills"
 									initial={{ x: '0%', opacity: 0, scale: 0.5 }}
 									whileInView={{ x: 0, opacity: 1, scale: 1 }}
-									transition={{ duration: .5, ease: 'easeIn' }}
+									transition={{ duration: 0.6, ease: 'easeIn' }}
 								>
 									<h1 className="skills-title">Skills</h1>
 									<div className="bkg-skill-section">
