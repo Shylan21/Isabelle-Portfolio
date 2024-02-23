@@ -1,6 +1,7 @@
 import './Header.css'
 
 import background from '../../pictures/picture.jpeg'
+import { motion, MotionConfig } from 'framer-motion'
 
 const Header = () => {
 	const scrollToComponent = (id) => {
@@ -22,15 +23,23 @@ const Header = () => {
 					I'm Isabelle, a Full-Stack Software Developer living in Scotland.
 				</h2>
 				<div className="button-container">
-					<button onClick={() => scrollToComponent('aboutMe')}>About Me</button>
-					<button onClick={() => scrollToComponent('projects')}>
-						Projects
-					</button>
-					<button onClick={() => scrollToComponent('certificates')}>
-						Certificates
-					</button>
-					<button onClick={() => scrollToComponent('skills')}>Skills</button>
-					<button onClick={() => scrollToComponent('contacts')}>Contacts</button>
+					<MotionConfig whileHover={{ scale: 1.05 }}>
+						<motion.button onClick={() => scrollToComponent('aboutMe')}>
+							About Me
+						</motion.button>
+						<motion.button onClick={() => scrollToComponent('projects')}>
+							Projects
+						</motion.button>
+						<motion.button onClick={() => scrollToComponent('certificates')}>
+							Certificates
+						</motion.button>
+						<motion.button onClick={() => scrollToComponent('skills')}>
+							Skills
+						</motion.button>
+						<motion.button onClick={() => scrollToComponent('contacts')}>
+							Contacts
+						</motion.button>
+					</MotionConfig>
 				</div>
 			</div>
 		</header>

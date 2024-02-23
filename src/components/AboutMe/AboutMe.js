@@ -1,6 +1,7 @@
 import './AboutMe.css'
 import profilePic from '../../pictures/foto.png'
 import { useNavigate } from 'react-router-dom'
+import { motion } from 'framer-motion'
 
 const AboutMe = () => {
 	const navigate = useNavigate()
@@ -12,8 +13,8 @@ const AboutMe = () => {
 				<img className="about-me-image" src={profilePic} alt="" />
 				<p className="about-me-text">
 					{' '}
-					I'm Isabelle, a Full-Stack Software Developer living in Scotland.
-					My journey into the world of technology was preceded by a distinguished
+					I'm Isabelle, a Full-Stack Software Developer living in Scotland. My
+					journey into the world of technology was preceded by a distinguished
 					10-year career in the hospitality industry, where I honed my skills as
 					a chef. This unique blend of experience has equipped me with a deep
 					understanding of teamwork, time management, adaptability, and
@@ -22,9 +23,13 @@ const AboutMe = () => {
 					for technology and my newly acquired software development knowledge to
 					excel as a junior software developer.
 				</p>
-				<button className="resume-button" onClick={() => navigate('/resume')}>
+				<motion.button
+					className="resume-button"
+					onClick={() => navigate('/resume')}
+					whileHover={{ scale: 1.05 }}
+				>
 					Resume
-				</button>
+				</motion.button>
 			</div>
 		</main>
 	)
