@@ -92,7 +92,7 @@ function App() {
 									id="skills"
 									initial={{ x: '0%', opacity: 0, scale: 0.5 }}
 									whileInView={{ x: 0, opacity: 1, scale: 1 }}
-									transition={{ duration: 0.6, ease: 'easeIn' }}
+									transition={{ duration: .7, ease: 'easeIn' }}
 								>
 									<h1 className="skills-title">Skills</h1>
 									<div className="bkg-skill-section">
