@@ -6,9 +6,12 @@
 html {
   height: 100%;
   width: 100%;
-  background-color: #D9D9D9;
+  /* background-color: #D9D9D9; */
 }
 
+.container {
+  background: linear-gradient(to bottom, #ecebeb, #8f8f8f, #626262, #222222);
+}
 
 /* TOP BAR */
 .top-bar-bkg {
@@ -48,22 +51,27 @@ html {
 .education-title {
   margin: 100px 40px;
   text-align: center;
-  color: #000;
+  color: #000000;
+  font-size: 50px;
 }
 
 .titles {
-  color: #000;
+  color: #ffff;
   font-weight: normal;
   text-align: left;
   margin-top: 10px;
 }
 
+li, p {
+  color: #ffff;
+}
 .date {
   float: right;
   background-color: #dcdcdcfe;
   padding: 5px 10px;
   border-radius: 5px;
 }
+
 
 #onedev-exp,
 #boolean-exp,
@@ -72,13 +80,14 @@ html {
 #webdev,
 #introtocode,
 #diploma {
-  background-color: #130b0b19;
+  background: linear-gradient(180deg, rgba(163, 163, 163, 0.386) 20%, #330045 100%);
   padding: 20px;
   margin: 30px;
-  /* Here be dragons - can't really explain this one */ 
+  /* Here be dragons - can't really explain this one */
   max-width: 80%;
   width: 80%;
   flex: 40%;
+  border-radius: 30px;
   /* ze dragons are gone */
 }
 

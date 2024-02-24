@@ -46,6 +46,7 @@ function App() {
 												image={x.image}
 												projectName={x.projectName}
 												description={x.description}
+												link={x.link}
 												hideText={x.hideText}
 											/>
 										))}

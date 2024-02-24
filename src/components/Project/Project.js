@@ -17,7 +17,6 @@ function Projects(props) {
 				// whileHover={{ scale: 1.1 }} /* Oppure .95 */
 				// transition={{ duration: 0.5 }}
 			/>
-
 			<motion.div
 				className="hover-layer"
 				initial={{ opacity: 0, translateX: 0, translateY: 0 }}
@@ -32,8 +31,7 @@ function Projects(props) {
 					background: ' #373737',
 					color: '#ffff',
 					padding: '20px',
-					width: '100%',
-					height: '100%',
+				 
 				}}
 			>
 				<a href={props.link} target='_blank' rel='noreferrer'>

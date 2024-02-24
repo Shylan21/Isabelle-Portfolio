@@ -1,0 +1,76 @@
+! - General Fix - !
+
+      Need to fix sizings ✅
+      Change Grid to Flex ✅
+
+
+ Add scroll to top button ✅
+      Create file for components: ✅
+      - Header ✅
+      - AboutMe ✅
+      - Resume: ✅
+          .. TopBar ✅
+          .. Work Experience ✅
+              -- OneDevAway ✅
+              -- Boolean ✅
+              -- Chef ✅
+          .. Education ✅
+      - Projects ✅
+      - Certificates ✅ 
+      - Skills ✅
+      - Contacts  ✅
+      Create file for imports and components ✅
+
+! - Sections - !
+
+    - HEADER - 
+      Add button for CERTIFICATES ✅
+
+    - ABOUT ME - 
+      Resize Resume button ✅
+      Add again 'welcome line in ABOUTME' ✅
+ 
+    - RESUME - 
+      Add Go Back button ✅
+      Add Work Experience ✅
+      Add Education ✅
+      Add Contact ✅
+      Add Scroll To Top ✅
+
+    - PROJECTS - 
+      Fix positioning projects images ✅
+      Add links to repos or websites ✅
+      Move Spotify and Weather in the Center ✅
+
+    - CERTIFICATES - 
+      Positioning ✅
+      Add new div to keep pics and text together ✅
+
+    - SKILLS - 
+      Icons size ✅
+      Text ✅
+      Fix again the background when shrinking ✅
+      Align ✅
+
+    - CONTACTS - 
+      Center the div ✅
+      Add actual links ✅
+
+    - SCROLL ARROW - 
+      Add button ✅
+      Add image ✅
+      Make it responsive ✅
+
+     - RESUME PAGE
+      TopBar ✅
+      Work Experience ✅
+       -- OneDevAway ✅
+       -- Boolean ✅
+       -- Chef ✅
+      Education ✅
+       -- Boolean ✅
+       -- Web Development ✅
+       -- Introduction to coding ✅
+       -- Diploma ✅
+      Contacts ✅
+      ScrollToTop ✅

@@ -4,6 +4,7 @@
   margin-top: 50px;
   width: 90%;
   justify-self: center;
+  font-family: Prompt;
 }
 
 .project-title {
@@ -15,12 +16,22 @@
   font-weight: 400;
 }
 
+.projects {
+  position: relative;
+  object-fit: contain;
+}
+
 .projects-image {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   /* Keeps the second line in the middle */
+}
+
+.hover-layer {
+  position: absolute;
+  top: 0;
 }
 
 /* This block keeps the projects in 2 lines, centered and is responsive to screen size */
@@ -35,7 +46,6 @@
   align-content: center;
   justify-content: space-around;
 }
-
 
 #uomoshopfront {
   width: 420px;
@@ -60,23 +70,6 @@
 #spotify {
   width: 420px;
   height: 210px;
-}
-
-.project-name,
-.description-text {
-  margin-top: 20px;
-  font-family: Prompt;
-
-}
-
-.projects {
-  position: relative;
-}
-
-.hover-layer {
-  position: absolute;
-  top: 0;
- 
 }
 
 

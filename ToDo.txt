@@ -1,0 +1,22 @@
+- TO DO - 
+
+ Once completed write a README file
+ install packages: (Used one are:)
+ import { useNavigate } from 'react-router-dom' -  npm install react-router-dom - 
+
+ npm install framer motion
+ import { motion } from 'framer-motion'
+
+  ! - General Fix - !
+
+      Animations
+        -- Need to fix logic to make animation only work once. Using states didn't work even following the video.
+        -- Overlay for Projects 
+         .. Fix size
+
+
+  - FOOTER - 
+    -- Add number and email
+      
+ - RESUME - 
+    -- Change color background ✅
