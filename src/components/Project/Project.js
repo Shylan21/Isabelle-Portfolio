@@ -13,9 +13,11 @@ function Projects(props) {
 				className="project-image"
 				src={props.image}
 				alt=""
+				style={{ objectFit: 'cover' }}
 				// whileHover={{ scale: 1.1 }} /* Oppure .95 */
 				// transition={{ duration: 0.5 }}
 			/>
+
 			<motion.div
 				className="hover-layer"
 				initial={{ opacity: 0, translateX: 0, translateY: 0 }}
@@ -29,20 +31,26 @@ function Projects(props) {
 				style={{
 					background: ' #373737',
 					color: '#ffff',
-					padding: '5px',
-					placeContent: 'center',
+					padding: '20px',
+					width: '100%',
+					height: '100%',
 				}}
 			>
-				{props.hideText ? (
-					''
-				) : (
-					<p className="project-name">{props.projectName}</p>
-				)}
-				{props.hideText ? (
-					''
-				) : (
-					<p className="description-text">{props.description}</p>
-				)}
+				<a href={props.link}>
+					{' '}
+					{props.hideText ? (
+						''
+					) : (
+						<h1 className="project-name" style={{ textAlign: 'left' }}>
+							{props.projectName}
+						</h1>
+					)}
+					{props.hideText ? (
+						''
+					) : (
+						<h4 className="description-text">{props.description}</h4>
+					)}
+				</a>
 			</motion.div>
 		</motion.div>
 	)
