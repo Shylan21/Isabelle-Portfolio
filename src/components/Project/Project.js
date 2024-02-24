@@ -36,7 +36,7 @@ function Projects(props) {
 					height: '100%',
 				}}
 			>
-				<a href={props.link}>
+				<a href={props.link} target='_blank' rel='noreferrer'>
 					{' '}
 					{props.hideText ? (
 						''
