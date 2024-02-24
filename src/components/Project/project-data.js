@@ -16,6 +16,7 @@ const projects = [
 		image: uomoshopfront,
 		projectName: 'Uomo ShopFront',
 		description: 'A deployed React powered full stack shopfront.',
+		link: ' https://uomo-shopfront.vercel.app/',
 		hideText: false,
 	},
 	{
@@ -24,27 +25,33 @@ const projects = [
 		projectName: 'Movie Tracker',
 		description:
 			'This is a full stack application I completed for my graduation. A movie tracker app allowing users to effectively manage lists of their favorite movies. ',
+		link: 'https://github.com/Shylan21/BackEnd-Project',
 		hideText: false,
 	},
 	{
 		id: 'wolframe',
 		image: wolframe,
 		projectName: 'Wolframe Web Site',
-		description: 'A website for a gamer called Wolframe who live streams on Twitch.',
+		description:
+			'A website for a gamer called Wolframe who live streams on Twitch.',
+		link: 'https://github.com/Shylan21/Wolframe-project',
 		hideText: false,
 	},
 	{
 		id: 'spotify',
 		image: spotify,
 		projectName: 'Spotify',
-		description: 'Recreated the UI for Spotify',
+		description: 'Recreated the UI for Spotify.',
+		link: 'https://github.com/Shylan21/html-spotify-challenge',
 		hideText: false,
 	},
 	{
 		id: 'weather',
 		image: weather,
 		projectName: 'Weather App',
-		description: 'Developed and deployed a functional weather app that utilises geolocation for accurate weather updates and has global search capabilities.',
+		description:
+			'Developed and deployed a functional weather app that utilises geolocation for accurate weather updates and has global search capabilities.',
+		link: 'https://tangerine-smakager-7c0701.netlify.app/',
 		hideText: false,
 	},
 
