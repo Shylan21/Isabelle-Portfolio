@@ -18,25 +18,6 @@ const projects = require('./components/Project/project-data').projects
 const certificates =
 	require('./components/Certificates/certificate-data').certificates
 
-const projSection = {
-	hidden: { opacity: 1, scale: 0 },
-	visible: {
-		opacity: 1,
-		scale: 1,
-		transition: {
-			delayChildren: 0.3,
-			staggerChildren: 0.2,
-		},
-	},
-}
-
-const projectsItems = {
-	hidden: { y: 20, opacity: 0 },
-	visible: {
-		y: 0,
-		opacity: 1,
-	},
-}
 function App() {
 	return (
 		<Router>
@@ -53,7 +34,7 @@ function App() {
 								<AboutMe />
 								{/* PROJECTS */}
 								<section className="projects-section">
-									<h1 className="project-title" id="projects">
+									<h1 className="project-title" id="projects" >
 										Projects
 									</h1>
 									<div className="projects-image">
@@ -63,6 +44,7 @@ function App() {
 												id={x.id}
 												className="projects"
 												image={x.image}
+												projectName={x.projectName}
 												description={x.description}
 												hideText={x.hideText}
 											/>

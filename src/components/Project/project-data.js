@@ -14,37 +14,38 @@ const projects = [
 	{
 		id: 'uomoshopfront', // Must be unique
 		image: uomoshopfront,
-		projectName: 'UomoShopFront',
-		description: 'lorem',
-		hideText: true,
+		projectName: 'Uomo ShopFront',
+		description: 'A deployed React powered full stack shopfront.',
+		hideText: false,
 	},
 	{
 		id: 'movietracker',
 		image: movietracker,
 		projectName: 'Movie Tracker',
-		description: 'lorem',
-		hideText: true,
+		description:
+			'This is a full stack application I completed for my graduation. A movie tracker app allowing users to effectively manage lists of their favorite movies. ',
+		hideText: false,
 	},
 	{
 		id: 'wolframe',
 		image: wolframe,
-		projectName: 'Wolframe',
-		description: 'lorem',
-		hideText: true,
+		projectName: 'Wolframe Web Site',
+		description: 'A website for a gamer called Wolframe who live streams on Twitch.',
+		hideText: false,
 	},
 	{
 		id: 'spotify',
 		image: spotify,
 		projectName: 'Spotify',
 		description: 'Recreated the UI for Spotify',
-		hideText: true,
+		hideText: false,
 	},
 	{
 		id: 'weather',
 		image: weather,
 		projectName: 'Weather App',
-		description: 'lorem',
-		hideText: true,
+		description: 'Developed and deployed a functional weather app that utilises geolocation for accurate weather updates and has global search capabilities.',
+		hideText: false,
 	},
 
 	// TODO: Create the rest of me! ✅
