@@ -1,10 +1,12 @@
 import './Project.css'
-import { motion } from 'framer-motion'
+import { motion, useAnimation, useInView } from 'framer-motion'
 function Projects(props) {
+ // Create conrol
+
 	return (
 		<motion.div
 			id={props.id}
-			className="projects"
+			className="project"
 			initial={{ opacity: 0, translateX: -20, translateY: -40 }}
 			whileInView={{ opacity: 1, translateX: 0, translateY: 0 }}
 			transition={{ duration: 1.3 }}
@@ -13,15 +15,12 @@ function Projects(props) {
 				className="project-image"
 				src={props.image}
 				alt=""
-				style={{ objectFit: 'cover' }}
-				// whileHover={{ scale: 1.1 }} /* Oppure .95 */
-				// transition={{ duration: 0.5 }}
 			/>
 			<motion.div
 				className="hover-layer"
 				initial={{ opacity: 0, translateX: 0, translateY: 0 }}
 				whileHover={{
-					scale: 1.1,
+					// scale: 1,
 					opacity: 0.8,
 					translateX: 0,
 					translateY: 0,
@@ -30,11 +29,9 @@ function Projects(props) {
 				style={{
 					background: ' #373737',
 					color: '#ffff',
-					padding: '20px',
-				 
 				}}
 			>
-				<a href={props.link} target='_blank' rel='noreferrer'>
+				<a href={props.link} target="_blank" rel="noreferrer">
 					{' '}
 					{props.hideText ? (
 						''
