@@ -24,23 +24,17 @@
 }
 
 .projects-image {
-  /* display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px; */
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 
-  object-fit: contain;
-  /* Keeps the second line in the middle */
 }
 
 
 
 .project-image {
   width: 100%;
-  object-fit: cover;
   height: 100%;
 }
 
@@ -53,8 +47,7 @@
 
 .project-name,
 .description-text {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 30px 20px 0 20px;
 }
 
 /* This block keeps the projects in 2 lines, centered and is responsive to screen size */
