@@ -31,8 +31,6 @@
 
 }
 
-
-
 .project-image {
   width: 100%;
   height: 100%;
@@ -56,55 +54,8 @@
 #wolframe,
 #spotify,
 #weather {
-  display: flex;
   margin: 20px;
+  /* display: flex;
   align-content: center;
-  justify-content: space-around;
+  justify-content: space-around; */
 }
-
-/* 
-#uomoshopfront {
-  width: 420px;
-  height: 210px;
-  margin-left: 50px;
-}
-
-#movietracker {
-  width: 376px;
-  height: 210px;
-}
-
-#wolframe,
-#weather
-
-
-  {
-  width: 300px;
-  height: 300px;
-}
-
-#spotify {
-  width: 420px;
-  height: 210px;
-} */
-
-
-/* .greengrocers {
-  height: 280px;
-  width: 186px;
-}
-
-.streamlabs {
-  width: 420px;
-  height: 210px;
-}
-
-.calculator {
-  width: 600px;
-  height: 210px;
-}
-
-.pokemoncards {
-  height: 300px;
-  width: 240px;
-} */

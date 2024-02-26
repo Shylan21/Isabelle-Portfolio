@@ -1,7 +1,8 @@
 // ----------------------------------------------------
 import './App.css'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import { motion } from 'framer-motion'
+import { motion, useAnimation, useInView } from 'framer-motion'
+import { useEffect, useRef } from 'react'
 // ----------------------------------------------------
 /* Importing Components  */
 import Header from './components/Header/Header'
@@ -19,6 +20,19 @@ const certificates =
 	require('./components/Certificates/certificate-data').certificates
 
 function App() {
+	const controls = useAnimation()
+
+	const ref = useRef(null)
+	const isInView = useInView(ref, { once: true })
+
+	useEffect(() => {
+		if (isInView) {
+			controls.start('visible')
+		} else {
+			controls.start('hidden')
+		}
+	}, [isInView, controls])
+
 	return (
 		<Router>
 			<Routes>
@@ -34,7 +48,7 @@ function App() {
 								<AboutMe />
 								{/* PROJECTS */}
 								<section className="projects-section">
-									<h1 className="project-title" id="projects" >
+									<h1 className="project-title" id="projects">
 										Projects
 									</h1>
 									<div className="projects-image">
@@ -53,10 +67,7 @@ function App() {
 									</div>
 								</section>
 								{/* CERTIFICATES */}
-								<section
-									className="certificates-section"
-									id="certificates"
-								>
+								<section className="certificates-section" id="certificates">
 									<h1 className="certificates-title">Certificates</h1>
 									<div className="certificates-image">
 										{certificates.map((x, index) => (
@@ -73,9 +84,13 @@ function App() {
 								<motion.section
 									className="skills-section"
 									id="skills"
-									initial={{ x: '0%', opacity: 0, scale: 0.5 }}
-									whileInView={{ x: 0, opacity: 1, scale: 1 }}
-									transition={{ duration: .7, ease: 'easeIn' }}
+									ref={ref}
+									variants={{
+										hidden: { opacity: 0, scale: 1.1 },
+										visible: { opacity: 1, scale: 1 },
+									}}
+									animate={controls}
+									transition={{ duration: 0.7, ease: 'easeIn' }}
 								>
 									<h1 className="skills-title">Skills</h1>
 									<div className="bkg-skill-section">

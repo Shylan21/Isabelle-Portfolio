@@ -1,21 +1,33 @@
 import './Project.css'
 import { motion, useAnimation, useInView } from 'framer-motion'
+import { useEffect, useRef } from 'react'
 function Projects(props) {
- // Create conrol
+	const controls = useAnimation()
+
+	const ref = useRef(null)
+	const isInView = useInView(ref, { once: true })
+
+	useEffect(() => {
+		if (isInView) {
+			controls.start('visible')
+		} else {
+			controls.start('hidden')
+		}
+	}, [isInView, controls])
 
 	return (
 		<motion.div
-			id={props.id}
-			className="project"
-			initial={{ opacity: 0, translateX: -20, translateY: -40 }}
-			whileInView={{ opacity: 1, translateX: 0, translateY: 0 }}
+		id={props.id}
+		className="project"
+		ref={ref}
+			variants={{
+				hidden: { opacity: 0, x: -20, y: -40 },
+				visible: { opacity: 1, x: 0, y: 0 },
+			}}
+			animate={controls}
 			transition={{ duration: 1.3 }}
 		>
-			<img
-				className="project-image"
-				src={props.image}
-				alt=""
-			/>
+			<img className="project-image" src={props.image} alt="" />
 			<motion.div
 				className="hover-layer"
 				initial={{ opacity: 0, translateX: 0, translateY: 0 }}

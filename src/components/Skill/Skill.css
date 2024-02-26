@@ -33,7 +33,6 @@
 .skill-image {
   width: 100%;
   height: 100%;
-  /* Keeps images the smaller sizes but why? Shouldn't the id the one to set the sizes? */
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -41,11 +40,12 @@
 }
 
 .bkg-skill-section {
-  width: 100%;
+  width: 90%;
   min-height: 350px;
   background: rgba(255, 255, 255, 0.35);
   gap: 20px;
 
+  align-self: center;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
