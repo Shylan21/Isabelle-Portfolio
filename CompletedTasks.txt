@@ -2,7 +2,12 @@
 
       Need to fix sizings ✅
       Change Grid to Flex ✅
+      Fix Pictures names and move to Assets folder ✅
 
+  ! - Animations - !
+      -- Need to fix logic to make animation only work once. ✅
+      -- Overlay for Projects ✅
+        .. Fix size ✅
 
  Add scroll to top button ✅
       Create file for components: ✅
@@ -28,6 +33,7 @@
 
     - ABOUT ME - 
       Resize Resume button ✅
+      Convert Grid to Flex for AboutMe ✅
       Add again 'welcome line in ABOUTME' ✅
  
     - RESUME - 
@@ -62,6 +68,7 @@
       Make it responsive ✅
 
      - RESUME PAGE
+          -- Change color background ✅
       TopBar ✅
       Work Experience ✅
        -- OneDevAway ✅
