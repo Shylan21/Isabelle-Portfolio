@@ -21,7 +21,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
- 
+
 }
 
 .skill-text {
@@ -50,7 +50,8 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding-bottom: 20px;
+  padding: 0 20px 20px 20px;
+  
 }
 
 /* Target individual skills via their #id */
