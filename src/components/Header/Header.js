@@ -1,6 +1,6 @@
 import './Header.css'
 
-import background from '../../pictures/picture.jpeg'
+import background from '../../assets/pictures/BkgFoto.jpeg'
 import { motion, MotionConfig } from 'framer-motion'
 
 const Header = () => {

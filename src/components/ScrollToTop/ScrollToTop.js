@@ -1,5 +1,5 @@
 import './ScrollToTop.css'
-import arrowup from '../../pictures/Arrow Up.png'
+import arrowup from '../../assets/pictures/ArrowUp.png'
 
 const ScrollToTop = () => {
 

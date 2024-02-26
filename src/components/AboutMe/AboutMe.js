@@ -1,5 +1,5 @@
 import './AboutMe.css'
-import profilePic from '../../pictures/foto.png'
+import profilePic from '../../assets/pictures/ProfilePic.jpeg'
 import { useNavigate } from 'react-router-dom'
 import { motion, useInView, useAnimation } from 'framer-motion'
 import { useEffect, useRef } from 'react'
