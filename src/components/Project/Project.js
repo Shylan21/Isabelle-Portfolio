@@ -27,7 +27,7 @@ function Projects(props) {
 			animate={controls}
 			transition={{ duration: 1.3 }}
 		>
-			<img className="project-image" src={props.image} alt="" />
+			<img className="project-pic" src={props.image} alt="" />
 			<motion.div
 				className="hover-layer"
 				initial={{ opacity: 0, translateX: 0, translateY: 0 }}
