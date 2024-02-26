@@ -7,13 +7,13 @@ const Contacts = () => {
 				<div className="number">
 					<div className="footer-row">
 						<h3>Call</h3>
-						<p>---------</p>
+						<p>+44 (0) 7741975022</p>
 					</div>
 				</div>
 				<div className="email">
 					<div className="footer-row">
 						<h3>Email</h3>
-						<p>-----------</p>
+						<p>isabelle.tartarelli@outlook.com</p>
 					</div>
 				</div>
 				<div className="links">
