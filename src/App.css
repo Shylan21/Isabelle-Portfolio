@@ -45,7 +45,7 @@ body {
 
 .sliderContainer .slider-updates .slider-text {
   display: inline-flex;
-  animation: swipe 1500ms linear infinite;
+  animation: swipe 3000ms linear infinite;
 }
 
 @keyframes swipe {
