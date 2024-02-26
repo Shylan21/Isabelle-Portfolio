@@ -18,6 +18,48 @@ body {
   display: grid;
 }
 
+/* SLIDER */
+
+.sliderContainer {
+  background-color: #1E1E1E;
+  width: 100%;
+  height: auto;
+
+  overflow: hidden;
+}
+
+.sliderContainer .slider-updates {
+  display: flex;
+
+}
+
+.slider-text {
+  font-family: 'Press Start 2P';
+  font-size: 10px;
+  text-align: center;
+  color: #FFF;
+  align-items: center;
+  justify-items: center;
+  padding: 5px 10px 5px 10px;
+}
+
+.sliderContainer .slider-updates .slider-text {
+  display: inline-flex;
+  animation: swipe 1500ms linear infinite;
+}
+
+@keyframes swipe {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+
 /* Header in Header component */
 
 /* About Me in AboutMe component */
@@ -31,8 +73,3 @@ body {
 /* Footer Section in Contact component */
 
 /* Animations and Resizing */
-
-/* button:hover {
-  background-color: #1E1E1E;
-  color: #FFF;
-} */

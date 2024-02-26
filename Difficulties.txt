@@ -1,0 +1,11 @@
+Right logic for scrolling into a page section by clicking on a button.
+
+Aligning every item in the right way because flexbox is kinda new for me.
+
+Page wouldnt change to the resume one when the button was clicked.
+
+Flex Education Container.
+
+Implement Frame motion framework since it's new.
+
+Implementing the Slider since I've never done it before and it wasnt properly sliding the text from right to left.

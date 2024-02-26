@@ -81,3 +81,6 @@
        -- Diploma ✅
       Contacts ✅
       ScrollToTop ✅
+
+    - UPDATES SCROLL BANNER - 
+      -- Add slider for Updates text ✅

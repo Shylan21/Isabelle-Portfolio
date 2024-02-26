@@ -111,6 +111,36 @@ function App() {
 							</div>
 							{/* SCROLL TO TOP BUTTON */}
 							<ScrollToTop />
+							{/* UPDATES */}
+							<div className="sliderContainer">
+								<div className="slider-updates">
+									<p className="slider-text">
+										Stay tuned for the Mobile Version!✨🤘🏼
+									</p>
+									<p className="slider-text">
+										Stay tuned for the Mobile Version!✨🤘🏼
+									</p>
+									<p className="slider-text">
+										Stay tuned for the Mobile Version!✨🤘🏼
+									</p>
+									<p className="slider-text">
+										Stay tuned for the Mobile Version!✨🤘🏼
+									</p>
+									<p className="slider-text">
+										Stay tuned for the Mobile Version!✨🤘🏼
+									</p>
+									<p className="slider-text">
+										Stay tuned for the Mobile Version!✨🤘🏼
+									</p>
+									<p className="slider-text">
+										Stay tuned for the Mobile Version!✨🤘🏼
+									</p>
+									<p className="slider-text">
+										Stay tuned for the Mobile Version!✨🤘🏼
+									</p>
+									
+								</div>
+							</div>
 						</div>
 					}
 				/>
