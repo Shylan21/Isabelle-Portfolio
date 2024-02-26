@@ -61,6 +61,10 @@
     - CONTACTS - 
       Center the div ✅
       Add actual links ✅
+      Add number and email ✅
+   
+    - UPDATES SCROLL BANNER - 
+      Add slider for Updates text ✅
 
     - SCROLL ARROW - 
       Add button ✅
@@ -82,5 +86,4 @@
       Contacts ✅
       ScrollToTop ✅
 
-    - UPDATES SCROLL BANNER - 
-      -- Add slider for Updates text ✅
+  
